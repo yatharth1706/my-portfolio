@@ -7,8 +7,8 @@ function AboutMe() {
       <span className="flex justify-center md:justify-left">
         About <span className="font-bold ml-2">ME</span>
       </span>
-      <div className="flex flex-col justify-center md:flex-row">
-        <div className="w-full h-40 mt-10">
+      <div className="flex flex-col justify-center md:flex-row h-auto">
+        <div className="w-full h-auto mt-10">
           <div style={{ borderRadius: "50%" }} className="h-48 w-48 lg:h-80 lg:w-80 mx-auto">
             <img
               src={AboutMePic}
@@ -18,7 +18,7 @@ function AboutMe() {
             />
           </div>
         </div>
-        <div className="flex flex-col text-lg mt-20 md:mt-16 lg:mt-28">
+        <div className="flex flex-col text-lg mt-10 md:mt-16 lg:mt-28">
           <span className="text-2xl">Hello, I am</span>
           <span className="text-2xl font-semibold mt-2">Yatharth Verma</span>
           <span className="mt-2 text-sm">
@@ -26,7 +26,6 @@ function AboutMe() {
             I did my graduation from <b>Lovely Professional University</b>
           </span>
         </div>
-        <div></div>
       </div>
     </div>
   );
