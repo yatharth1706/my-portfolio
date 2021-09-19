@@ -6,6 +6,7 @@ import SkillsSection from "./components/SkillsSection";
 import AboutMe from "./components/AboutMe";
 import MyPublishedVideos from "./components/MyPublishedVideos";
 import MyIllustrations from "./components/MyIllustrations";
+import MyProjects from "./components/MyProjects";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <SkillsSection />
       <AboutMe />
+      <MyProjects />
       <MyPublishedVideos />
       <MyIllustrations />
     </Layout>
