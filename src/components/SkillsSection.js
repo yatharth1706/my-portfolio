@@ -1,9 +1,15 @@
 import React from "react";
 import SkillsDiv from "../images/SkillsDiv.png";
+import MongodbIcon from "../images/MongoDBIcon.png";
+import MySQLIcon from "../images/MySQLIcon.png";
+import PremiereProIcon from "../images/PremiereProIcon.png";
+import IllustratorIcon from "../images/IllustratorIcon.png";
+import PhotoshopIcon from "../images/PhotoshopIcon.png";
+import AdobeXDIcon from "../images/AdobeXDIcon.png";
 
 function SkillsSection() {
   return (
-    <div className="flex w-full h-auto" style = {{background : "#3F72DE"}}>
+    <div className="flex w-full h-auto" style={{ background: "#3F72DE" }}>
       <div className="py-10 px-10 md:px-20 flex flex-col w-full">
         <span className="text-white" style={{ fontSize: "35px" }}>
           My <span style={{ fontWeight: "700" }}>Skills</span>
@@ -34,7 +40,6 @@ function SkillsSection() {
               <i className="fab fa-aws text-custom-dark-blue" style={{ fontSize: "40px" }}></i>
               <i className="fab fa-python text-custom-dark-blue" style={{ fontSize: "40px" }}></i>
               <i className="fab fa-node text-custom-dark-blue" style={{ fontSize: "40px" }}></i>
-
             </div>
           </div>
           <div
@@ -43,9 +48,8 @@ function SkillsSection() {
           >
             <h2 className="mx-auto text-xl">Databases</h2>
             <div className="flex w-full h-auto space-x-4 mt-4 justify-center">
-              <i className="fab fa-aws text-custom-dark-blue" style={{ fontSize: "40px" }}></i>
-              <i className="fab fa-python text-custom-dark-blue" style={{ fontSize: "40px" }}></i>
-              <i className="fab fa-node text-custom-dark-blue" style={{ fontSize: "40px" }}></i>
+              <img src={MongodbIcon} alt="Mongodb" style={{ height: "40px", width: "20px" }} />
+              <img src={MySQLIcon} alt="MySQL" style={{ height: "40px", width: "60px" }} />
             </div>
           </div>
           <div
@@ -54,9 +58,11 @@ function SkillsSection() {
           >
             <h2 className="mx-auto text-xl">Tools</h2>
             <div className="flex w-full h-auto space-x-4 mt-4 justify-center">
-              <i className="fab fa-github text-custom-dark-blue" style={{ fontSize: "40px" }}></i>
-              <i className="fab fa-python text-custom-dark-blue" style={{ fontSize: "40px" }}></i>
-              <i className="fab fa-node text-custom-dark-blue" style={{ fontSize: "40px" }}></i>
+              <i className="fab fa-github text-custom-dark-blue" style={{ fontSize: "38px" }}></i>
+              <img src={AdobeXDIcon} alt="MySQL" style={{ height: "38px", width: "40px" }} />
+              <img src={PremiereProIcon} alt="Mongodb" style={{ height: "38px", width: "38px" }} />
+              <img src={IllustratorIcon} alt="MySQL" style={{ height: "38px", width: "38px" }} />
+              <img src={PhotoshopIcon} alt="MySQL" style={{ height: "38px", width: "38px" }} />
             </div>
           </div>
         </div>
