@@ -28,10 +28,12 @@ function MyProjects() {
               </p>
 
               <div className="flex space-x-3 mt-4">
-                <a className="mt-2" href="https://www.npmjs.com/package/emojigit" target="_blank">
-                  <button className="px-2 py-1 bg-custom-light-blue text-white rounded-sm">
-                    Live Demo
-                  </button>
+                <a
+                  className="px-2 py-1 bg-custom-light-blue text-white rounded-sm"
+                  href="https://www.npmjs.com/package/emojigit"
+                  target="_blank"
+                >
+                  Live Demo
                 </a>
                 <a href="https://github.com/yatharth1706/emojigit" target="_blank">
                   <i className="fab fa-github text-3xl" />
@@ -46,10 +48,12 @@ function MyProjects() {
                   />
                 </div>
                 <div className="flex space-x-3 mt-4">
-                  <a className="mt-2" href="https://www.npmjs.com/package/igm" target="_blank">
-                    <button className="px-2 py-1 bg-custom-light-blue text-white rounded-sm">
-                      Live Demo
-                    </button>
+                  <a
+                    className="px-2 py-1 bg-custom-light-blue text-white rounded-sm"
+                    href="https://www.npmjs.com/package/emojigit"
+                    target="_blank"
+                  >
+                    Live Demo
                   </a>
                   <a href="https://github.com/yatharth1706/ig-InteractiveGit" target="_blank">
                     <i className="fab fa-github text-3xl" />
@@ -72,16 +76,14 @@ function MyProjects() {
                 helps write easy css utility classes. It was great fun to build this project.
               </p>
               <div className="flex space-x-3 mt-3">
-                <a className="mt-2" href="https://hulu-clone-iota.vercel.app/" target="_blank">
-                  <button className="px-2 py-1 bg-custom-light-blue text-white rounded-sm">
-                    Live Demo
-                  </button>
-                </a>
                 <a
-                  className="mt-2"
-                  href="https://github.com/yatharth1706/hulu-clone"
+                  className="px-2 py-1 bg-custom-light-blue text-white rounded-sm"
+                  href="https://hulu-clone-iota.vercel.app/"
                   target="_blank"
                 >
+                  Live Demo
+                </a>
+                <a href="https://github.com/yatharth1706/hulu-clone" target="_blank">
                   <i className="fab fa-github text-3xl" />
                 </a>
               </div>

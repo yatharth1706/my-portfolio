@@ -67,6 +67,13 @@ function MyPublishedVideos() {
             </div>
           </div>
         </div>
+        <div className="mx-auto mt-4 mb-8">
+          <a href="https://www.youtube.com/channel/UCuttXyopYHZdV8_0ofvqBUQ" target="_blank">
+            <button className="px-2 py-2 w-60 bg-custom-light-blue rounded text-white">
+              Visit my youtube channel
+            </button>
+          </a>
+        </div>
       </div>
     </Element>
   );

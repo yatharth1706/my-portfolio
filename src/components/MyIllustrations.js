@@ -37,13 +37,6 @@ function MyIllustrations() {
               className="h-full w-full object-cover object-top"
             />
           </div>
-          <div className="w-full h-80 p-1">
-            <img
-              src={WolfIll}
-              alt="Illustration pic"
-              className="h-full w-full object-cover object-center"
-            />
-          </div>
         </div>
       </div>
     </Element>
