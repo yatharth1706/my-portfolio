@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 function Navbar() {
   const [isNavToggled, setIsNavToggled] = useState(false);
@@ -12,12 +13,22 @@ function Navbar() {
         className="hidden w-full lg:flex justify-end space-x-10 text-custom-light-blue"
         style={{ lineHeight: "45px" }}
       >
-        <li className="list-none">Skills</li>
-        <li className="list-none">About me</li>
-        <li className="list-none">Projects</li>
-        <li className="list-none">Videos</li>
-        <li className="list-none">Illustrations</li>
-        <li className="list-none">Contact me</li>
+        <li className="list-none cursor-pointer">
+          <Link to="skills">Skills</Link>
+        </li>
+        <li className="list-none cursor-pointer">
+          <Link to="aboutMe">About me</Link>
+        </li>
+        <li className="list-none cursor-pointer">
+          <Link to="myProjects">Projects</Link>
+        </li>
+        <li className="list-none cursor-pointer">
+          <Link to="myPublishedVideos">Videos</Link>
+        </li>
+        <li className="list-none cursor-pointer">
+          <Link to="myIllustrations">Illustrations</Link>
+        </li>
+        {/* <li className="list-none cursor-pointer"><Link to="">Contact me</li> */}
       </div>
       <div
         className="flex justify-end w-full lg:hidden cursor-pointer"
@@ -33,12 +44,21 @@ function Navbar() {
         }
         style={{ background: "#3f72de" }}
       >
-        <li className="list-none">Skills</li>
-        <li className="list-none">About me</li>
-        <li className="list-none">Projects</li>
-        <li className="list-none">Videos</li>
-        <li className="list-none">Illustrations</li>
-        <li className="list-none">Contact me</li>
+        <li className="list-none cursor-pointer">
+          <Link to="skills">Skills</Link>
+        </li>
+        <li className="list-none cursor-pointer">
+          <Link to="aboutMe">About me</Link>
+        </li>
+        <li className="list-none cursor-pointer">
+          <Link to="myProjects">Projects</Link>
+        </li>
+        <li className="list-none cursor-pointer">
+          <Link to="myPublishedVideos">Videos</Link>
+        </li>
+        <li className="list-none cursor-pointer">
+          <Link to="myIllustrations">Illustrations</Link>
+        </li>
       </div>
     </div>
   );

@@ -7,17 +7,20 @@ import AboutMe from "./components/AboutMe";
 import MyPublishedVideos from "./components/MyPublishedVideos";
 import MyIllustrations from "./components/MyIllustrations";
 import MyProjects from "./components/MyProjects";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <Layout>
-      <Home />
-      <SkillsSection />
-      <AboutMe />
-      <MyProjects />
-      <MyPublishedVideos />
-      <MyIllustrations />
-    </Layout>
+    <Router>
+      <Layout>
+        <Home />
+        <SkillsSection />
+        <AboutMe />
+        <MyProjects />
+        <MyPublishedVideos />
+        <MyIllustrations />
+      </Layout>
+    </Router>
   );
 }
 

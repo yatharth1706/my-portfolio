@@ -18,10 +18,18 @@ function Intro() {
       </button>
 
       <div className="flex space-x-8 mt-8 mb-8 mx-auto md:mx-0">
-        <i className="fab fa-github text-custom-light-blue" style={{ fontSize: "32px" }}></i>
-        <i className="fab fa-linkedin-in text-custom-light-blue" style={{ fontSize: "32px" }}></i>
-        <i className="fab fa-twitter text-custom-light-blue" style={{ fontSize: "32px" }}></i>
-        <i className="fab fa-instagram text-custom-light-blue" style={{ fontSize: "32px" }}></i>
+        <a href="http://github.com/yatharth1706" target="_blank">
+          <i className="fab fa-github text-custom-light-blue" style={{ fontSize: "32px" }}></i>
+        </a>
+        <a href="https://www.linkedin.com/in/yatharth-verma-938924169/" target="_blank">
+          <i className="fab fa-linkedin-in text-custom-light-blue" style={{ fontSize: "32px" }}></i>
+        </a>
+        <a href="https://twitter.com/yatharth170699" target="_blank">
+          <i className="fab fa-twitter text-custom-light-blue" style={{ fontSize: "32px" }}></i>
+        </a>
+        <a href="https://www.instagram.com/yatharth_illustrator/?hl=en" target="_blank">
+          <i className="fab fa-instagram text-custom-light-blue" style={{ fontSize: "32px" }}></i>
+        </a>
       </div>
     </div>
   );
