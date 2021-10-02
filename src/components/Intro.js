@@ -10,12 +10,17 @@ function Intro() {
       <span style={{ fontSize: "18px", fontWeight: "200" }}>
         Full stack web developer and a learner. Believes in hard work
       </span>
-      <button
-        className="text-white	bg-custom-light-blue p-2 rounded-3xl mt-6 w-full sm:w-60 mx-auto md:mx-0"
-        style={{ color: "white" }}
+      <a
+        href="https://firebasestorage.googleapis.com/v0/b/devblogs-b8b03.appspot.com/o/YatharthUpdatedResume%20(1).pdf?alt=media&token=6bf1e38e-52e9-4734-b6ef-44bf99f15d72"
+        target="_blank"
       >
-        Download Resume
-      </button>
+        <button
+          className="text-white	bg-custom-light-blue p-2 rounded-3xl mt-6 w-full sm:w-60 mx-auto md:mx-0"
+          style={{ color: "white" }}
+        >
+          Download Resume
+        </button>
+      </a>
 
       <div className="flex space-x-8 mt-8 mb-8 mx-auto md:mx-0">
         <a href="http://github.com/yatharth1706" target="_blank">
