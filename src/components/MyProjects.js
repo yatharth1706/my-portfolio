@@ -2,7 +2,7 @@ import React from "react";
 import HuluClone from "../images/HuluClone.PNG";
 import CPEditor from "../images/CPEditor.PNG";
 import Emojigit from "../images/Emojigit.PNG";
-
+import DevBlogsPreview from "../images/DevBlogsPreview.PNG";
 import { Element } from "react-scroll";
 
 function MyProjects() {
@@ -69,6 +69,35 @@ function MyProjects() {
           </div>
           <div className="w-full flex flex-col md:flex-row mt-16">
             <div className="w-full md:w-3/6 flex flex-col bg-white p-8 rounded">
+              <span className="text-2xl font-semibold">DevBlogs</span>
+              <p className="mt-3 text-sm">
+                This website is basically for sharing blogs with everyone. It gives us platform to
+                write blogs in markdown language. Provides the preview also where we can see the
+                final output of the blog post. Its still in development. Some features are still
+                remaining. It was kind of like a side project to refresh my frontend skills as well
+                as backend skills. Tech stack using in this are React and Firebase
+              </p>
+              <div className="flex space-x-3 mt-3">
+                <a
+                  className="px-2 py-1 bg-custom-light-blue text-white rounded-sm"
+                  href="https://dev-blogs-blond.vercel.app/"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+                <a href="https://github.com/yatharth1706/DevBlogs" target="_blank">
+                  <i className="fab fa-github text-3xl" />
+                </a>
+              </div>
+            </div>
+            <div className="w-full -mt-4 md:mt-0 md:w-4/6 md:-ml-3 z-10 flex flex-col justify-center items-center">
+              <div className="w-full h-auto p-3">
+                <img src={DevBlogsPreview} alt="Hulu Clone" className="rounded" />
+              </div>
+            </div>
+          </div>
+          <div className="w-full flex flex-col md:flex-row mt-16">
+            <div className="w-full md:w-3/6 flex flex-col bg-white p-8 rounded">
               <span className="text-2xl font-semibold">Hulu Clone 2.0</span>
               <p className="mt-3 text-sm">
                 The main purpose of this project was to learn and brush up NextJS. In this project,
@@ -94,6 +123,7 @@ function MyProjects() {
               </div>
             </div>
           </div>
+
           {/* <div className="w-full flex flex-col md:flex-row mt-16">
             <div className="w-full md:w-3/6 flex flex-col bg-white p-8 rounded">
               <span className="text-2xl font-semibold">Framer Motion Dashboard</span>
