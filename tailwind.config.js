@@ -7,6 +7,9 @@ module.exports = {
         "custom-light-blue": "#648DE5",
         "custom-dark-blue": "#3F72DE",
       },
+      screens: {
+        bmd: "764px",
+      },
     },
   },
   variants: {

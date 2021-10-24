@@ -65,13 +65,8 @@ function SkillsSection() {
               <div className="flex w-full h-auto space-x-4 mt-4 justify-center">
                 <i className="fab fa-github text-custom-dark-blue" style={{ fontSize: "38px" }}></i>
                 <img src={AdobeXDIcon} alt="MySQL" style={{ height: "38px", width: "40px" }} />
-                <img
-                  src={PremiereProIcon}
-                  alt="Mongodb"
-                  style={{ height: "38px", width: "38px" }}
-                />
+
                 <img src={IllustratorIcon} alt="MySQL" style={{ height: "38px", width: "38px" }} />
-                <img src={PhotoshopIcon} alt="MySQL" style={{ height: "38px", width: "38px" }} />
               </div>
             </div>
           </div>
