@@ -3,6 +3,7 @@ import HuluClone from "../images/HuluClone.PNG";
 import CPEditor from "../images/CPEditor.PNG";
 import DevBlogsPreview from "../images/DevBlogsPreview.PNG";
 import CloudSpacePreview from "../images/CloudspacePreview.PNG";
+import PortfolioPreview from "../images/PortfolioPreview.PNG";
 
 const projectsConfig = [
   {
@@ -32,6 +33,15 @@ const projectsConfig = [
       "Efficient storage solution. Support image file upload right now. Provides download url as well as preview of uploaded file. Tech stack used in this are AWS Amplify, Cognito, API Gateway, DynamoDB and ReactJS",
     liveDemoLink: "https://cloud-space.vercel.app/",
     githubLink: "https://github.com/yatharth1706/Cloud-Space",
+  },
+
+  {
+    title: "Portfolio",
+    previewImage: PortfolioPreview,
+    description:
+      "Portfolio website built using ReactJS and TailwindCSS. Includes information about me and my skills along with side projects.",
+    liveDemoLink: "https://my-portfolio-six-jet.vercel.app/",
+    githubLink: "https://github.com/yatharth1706/my-portfolio",
   },
 
   {

@@ -15,7 +15,7 @@ function MyProjects() {
     <Element name="myProjects">
       <div className="px-10 py-10 md:px-20 mt-12" style={{ background: "#3F72DE" }}>
         <span className="text-white text-3xl">My Projects</span>
-        <div className="space-y-4 sm:space-y-0 sm:grid sm:grid-cols-2 bmd:grid-cols-2 lg-grid-cols-3 sm:gap-4 md:gap-6 mt-6">
+        <div className="space-y-4 sm:space-y-0 sm:grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 sm:gap-4 md:gap-6 mt-6">
           {ProjectsConfig.map((config) => (
             <div className="w-full h-full bg-white rounded p-6 flex flex-col">
               <div className="flex justify-between">
@@ -26,8 +26,11 @@ function MyProjects() {
                   </div>
                 )}
               </div>
-              <div className="mt-2 w-full" style={{ height: "250px" }}>
-                <img src={config.previewImage} className="w-full h-full " />
+              <div className="mt-2 w-full" style={{ height: "180px" }}>
+                <img
+                  src={config.previewImage}
+                  className="w-full h-full object-cover object-center"
+                />
               </div>
               <div className="mt-5">
                 <p className="text-sm">{truncate(config.description, 120)}</p>

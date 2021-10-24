@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
@@ -6,9 +8,6 @@ module.exports = {
       colors: {
         "custom-light-blue": "#648DE5",
         "custom-dark-blue": "#3F72DE",
-      },
-      screens: {
-        bmd: "764px",
       },
     },
   },
