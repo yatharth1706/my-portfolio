@@ -11,7 +11,7 @@ function Intro() {
         Full stack web developer and a learner. Believes in hard work
       </span>
       <a
-        href="https://firebasestorage.googleapis.com/v0/b/devblogs-b8b03.appspot.com/o/YatharthUpdatedResume%20(1).pdf?alt=media&token=6bf1e38e-52e9-4734-b6ef-44bf99f15d72"
+        href="https://firebasestorage.googleapis.com/v0/b/devblogs-b8b03.appspot.com/o/YatharthUpdatedResume%20(2).pdf?alt=media&token=d8dadca3-8066-4abc-b71a-eb3db28b5e9a"
         target="_blank"
       >
         <button
