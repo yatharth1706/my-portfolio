@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import ContactBg from "../images/ContactBg.png";
+import emailjs from "emailjs-com";
 
 function Contact() {
   const form = useRef();
@@ -7,7 +8,24 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    console.log(form.current);
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_EMAIL_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_USER_ID
+      )
+      .then(
+        (result) => {
+          // show notification
+          console.log(result.text);
+          form.current.reset();
+        },
+        (error) => {
+          // show notification
+          console.log(error.text);
+        }
+      );
   };
 
   return (
@@ -17,11 +35,22 @@ function Contact() {
         <img src={ContactBg} alt="Contact pic" className="hidden lg:block lg:w-3/6 h-80" />
         <form ref={form} onSubmit={sendEmail} className="w-full h-auto flex flex-col lg:w-3/6">
           <label>Name</label>
-          <input type="text" name="user_name" className="border w-full h-8 mt-2 rounded-sm" />
+          <input
+            type="text"
+            name="name"
+            className="border w-full h-8 mt-2 rounded-sm px-2 outline-none"
+          />
           <label className="mt-4">Email</label>
-          <input type="email" name="user_email" className="border w-full h-8 mt-2 rounded-sm" />
+          <input
+            type="email"
+            name="email"
+            className="border w-full h-8 mt-2 rounded-sm px-2 outline-none"
+          />
           <label className="mt-4">Message</label>
-          <textarea name="message" className="border w-full h-16 mt-2 rounded-sm" />
+          <textarea
+            name="message"
+            className="border w-full h-16 mt-2 rounded-sm px-2 outline-none pt-1"
+          />
           <button
             type="submit"
             className="mt-4 text-white px-2 py-1 rounded-sm"
