@@ -8,6 +8,7 @@ import MyPublishedVideos from "./components/MyPublishedVideos";
 import MyIllustrations from "./components/MyIllustrations";
 import MyProjects from "./components/MyProjects";
 import { BrowserRouter as Router } from "react-router-dom";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <MyProjects />
         <MyPublishedVideos />
         <MyIllustrations />
+        <Contact />
       </Layout>
     </Router>
   );
