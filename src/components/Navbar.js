@@ -38,6 +38,11 @@ function Navbar() {
             Illustrations
           </Link>
         </li>
+        <li className="list-none cursor-pointer">
+          <Link to="contactMe" smooth={true}>
+            Contact Me
+          </Link>
+        </li>
         {/* <li className="list-none cursor-pointer"><Link to="">Contact me</li> */}
       </div>
       <div
@@ -78,6 +83,12 @@ function Navbar() {
           <Link to="myIllustrations" onClick={() => setIsNavToggled(!isNavToggled)}>
             {" "}
             Illustrations
+          </Link>
+        </li>
+        <li className="list-none cursor-pointer">
+          <Link to="contactMe" onClick={() => setIsNavToggled(!isNavToggled)}>
+            {" "}
+            Contact Me
           </Link>
         </li>
       </div>
