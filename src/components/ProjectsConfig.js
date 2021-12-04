@@ -4,8 +4,17 @@ import CPEditor from "../images/CPEditor.PNG";
 import DevBlogsPreview from "../images/DevBlogsPreview.PNG";
 import CloudSpacePreview from "../images/CloudspacePreview.PNG";
 import PortfolioPreview from "../images/PortfolioPreview.PNG";
+import ChatSpacePreview from "../images/ChatSpacePreview.png";
 
 const projectsConfig = [
+  {
+    title: "Chat Space",
+    previewImage: ChatSpacePreview,
+    description:
+      "Fast One to One messaging app built using NextJS, Styled Components, Firebase v8 (Firestore and Auth), and React Firebase hooks for realtime fetching of data from the database. ",
+    liveDemoLink: "https://chat-space.vercel.app",
+    githubLink: "https://github.com/yatharth1706/chatspace",
+  },
   {
     title: "Emoji Git CLI Tool",
     previewImage: Emojigit,
