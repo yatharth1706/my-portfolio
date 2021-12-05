@@ -4,7 +4,7 @@ import Services from "./Services";
 
 function Home() {
   return (
-    <div className="flex font-rubik">
+    <div className="flex flex-col md:flex-row font-rubik pb-10 items-center justify-center">
       <Intro />
       <Services />
     </div>

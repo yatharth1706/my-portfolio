@@ -15,37 +15,46 @@ function MyProjects() {
     <Element name="myProjects">
       <div className="px-10 py-10 md:px-20 mt-12" style={{ background: "#3F72DE" }}>
         <span className="text-white text-3xl">My Projects</span>
-        <div className="space-y-4 sm:space-y-0 sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-4 md:gap-6 mt-6">
+        <div className="space-y-4 sm:space-y-0 sm:grid sm:grid-cols-2  sm:gap-4 md:gap-6 mt-6 rounded">
           {ProjectsConfig.map((config) => (
-            <div className="w-full h-full bg-white rounded p-6 flex flex-col">
-              <div className="flex justify-between">
-                <span className="text-xl font-semibold mb-3">{config.title}</span>
-                {config.downloads && (
-                  <div className="mt-1">
-                    <img src={config.downloads} />
+            <div className="w-full h-full bg-black text-white opacity-80 rounded flex flex-col">
+              <div className="w-full rounded" style={{ height: "60%" }}>
+                <img
+                  src={config.previewImage}
+                  className="w-full h-full object-cover rounded rounded-b-none"
+                />
+              </div>
+              <div style={{ height: "40%" }} className="w-full">
+                <div className="px-4 py-4 flex flex-col w-full h-full">
+                  <span className="mb-1" style={{ fontSize: "20px" }}>
+                    {config.title}
+                  </span>
+                  <div className="flex justify-between">
+                    {config.downloads && (
+                      <div className="mt-1">
+                        <img src={config.downloads} />
+                      </div>
+                    )}
                   </div>
-                )}
-              </div>
-              <div className="mt-2 w-full" style={{ height: "180px" }}>
-                <img src={config.previewImage} className="w-full h-full" />
-              </div>
-              <div className="mt-5">
-                <p className="text-sm">{truncate(config.description, 120)}</p>
-              </div>
-              {config.liveDemoLink ? (
-                <div className="mt-5 flex justify-between" style={{ color: "#3f72de" }}>
-                  <a target="_blank" href={config.liveDemoLink}>
-                    Live Demo
-                  </a>
-                  <a target="_blank" href={config.githubLink}>
-                    Source Code
-                  </a>
+                  <div className="mt-2 mb-4">
+                    <p style={{ fontSize: "12px" }}>{truncate(config.description, 120)}</p>
+                  </div>
+                  {config.liveDemoLink ? (
+                    <div className="flex justify-between mt-auto" style={{ color: "#3f72de" }}>
+                      <a target="_blank" href={config.liveDemoLink} className="font-bold">
+                        Live Demo
+                      </a>
+                      <a target="_blank" href={config.githubLink} className="font-bold">
+                        Source Code
+                      </a>
+                    </div>
+                  ) : (
+                    <div className="mt-auto">
+                      <span className="text-sm">Still in development ...</span>
+                    </div>
+                  )}
                 </div>
-              ) : (
-                <div className="mt-5">
-                  <span className="text-sm">Still in development ...</span>
-                </div>
-              )}
+              </div>
             </div>
           ))}
         </div>

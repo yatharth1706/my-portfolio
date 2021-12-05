@@ -3,19 +3,19 @@ import React from "react";
 function Intro() {
   return (
     <div className="w-full flex md:w-3/6 flex-col font-rubik pl-20 pr-20 md:pr-0 md:mt-20 mt-16 mb-10 mx-auto text-center md:text-left">
-      <span className="text-xl mb-3">Hy! I Am</span>
-      <span style={{ fontWeight: "500" }} className="text-4xl mb-3">
+      <span className="text-md mb-1 opacity-80">Welcome! I am</span>
+      <span style={{ fontWeight: "400" }} className="text-3xl mb-2">
         Yatharth Verma
       </span>
-      <span style={{ fontSize: "18px", fontWeight: "200" }}>
-        Full stack web developer and a learner. Believes in hard work
+      <span style={{ fontSize: "15px", fontWeight: "200" }} className="opacity-90">
+        I love web designing and I elevate user experiences using my telekenesis power
       </span>
       <a
         href="https://firebasestorage.googleapis.com/v0/b/devblogs-b8b03.appspot.com/o/YatharthUpdatedResume%20(2).pdf?alt=media&token=d8dadca3-8066-4abc-b71a-eb3db28b5e9a"
         target="_blank"
       >
         <button
-          className="text-white	bg-custom-light-blue p-2 rounded-3xl mt-6 w-full sm:w-60 mx-auto md:mx-0"
+          className="text-white	bg-custom-light-blue p-2 rounded mt-4 w-60  mx-auto md:mx-0"
           style={{ color: "white" }}
         >
           Download Resume
