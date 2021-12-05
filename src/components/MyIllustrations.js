@@ -9,7 +9,7 @@ function MyIllustrations() {
   return (
     <Element name="myIllustrations">
       <div
-        className="text-white w-full h-auto px-10 md:px-20 flex flex-col py-10"
+        className="text-white w-full h-auto px-6 md:px-20 flex flex-col py-10"
         style={{
           background: "#3F72DE",
         }}

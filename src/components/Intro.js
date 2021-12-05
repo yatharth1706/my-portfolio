@@ -2,7 +2,7 @@ import React from "react";
 
 function Intro() {
   return (
-    <div className="w-full flex md:w-3/6 flex-col font-rubik pl-20 pr-20 md:pr-0 md:mt-20 mt-16 mb-10 mx-auto text-center md:text-left">
+    <div className="w-full flex md:w-3/6 flex-col font-rubik px-6 sm:px-20 md:pr-0 mt-10 md:mt-20  mb-10 mx-auto text-center md:text-left">
       <span className="text-md mb-1 opacity-80">Welcome! I am</span>
       <span style={{ fontWeight: "400" }} className="text-3xl mb-2">
         Yatharth Verma

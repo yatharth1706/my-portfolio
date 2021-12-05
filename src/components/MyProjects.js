@@ -13,7 +13,7 @@ function MyProjects() {
 
   return (
     <Element name="myProjects">
-      <div className="px-10 py-10 md:px-20 mt-12" style={{ background: "#3F72DE" }}>
+      <div className="px-6 py-10 md:px-20 mt-12" style={{ background: "#3F72DE" }}>
         <span className="text-white text-3xl">My Projects</span>
         <div className="space-y-4 sm:space-y-0 sm:grid sm:grid-cols-2  sm:gap-4 md:gap-6 mt-6 rounded">
           {ProjectsConfig.map((config) => (
