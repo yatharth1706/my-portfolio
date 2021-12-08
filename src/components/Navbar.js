@@ -6,8 +6,8 @@ function Navbar() {
 
   return (
     <div className="flex px-10 md:px-20 pt-2 pb-2 sticky top-0 shadow bg-white z-20">
-      <span style={{ color: "#648DE5" }} className=" mt-1 text-3xl font-bold">
-        <sup style={{ fontSize: "18px" }}>My</sup>Portfolio
+      <span style={{ color: "#648DE5" }} className=" mt-1 text-2xl lg:text-3xl  font-bold">
+        <sup>My</sup>Portfolio
       </span>
       <div
         className="hidden w-full lg:flex justify-end space-x-10 text-custom-light-blue"
@@ -46,18 +46,19 @@ function Navbar() {
         {/* <li className="list-none cursor-pointer"><Link to="">Contact me</li> */}
       </div>
       <div
-        className="flex justify-end w-full lg:hidden cursor-pointer"
+        className="flex justify-end w-full lg:hidden cursor-pointer w-auto ml-auto"
         onClick={() => setIsNavToggled(!isNavToggled)}
+        style={{ width: "auto" }}
       >
         <i className="fas fa-bars text-custom-light-blue mt-3" style={{ fontSize: "22px" }}></i>
       </div>
       <div
         className={
           isNavToggled
-            ? "absolute right-10 text-white top-20 p-4 space-y-4 block transition-all duration-300 ease-in-out"
-            : "absolute right-10 text-white top-20 p-4 space-y-4 hidden transition-all duration-300 ease-in-out"
+            ? "absolute right-10 md:right-20 text-white top-16 p-4 space-y-4 block transition-all duration-300 ease-in-out rounded bg-blue-700 text-white text-sm p-10 shadow-2xl"
+            : "absolute right-10 md:right-20 text-white top-16 p-4 space-y-4 hidden transition-all duration-300 ease-in-out"
         }
-        style={{ background: "#3f72de" }}
+        style={{ background: "#3069e2" }}
       >
         <li className="list-none cursor-pointer">
           <Link to="skills" onClick={() => setIsNavToggled(!isNavToggled)}>
