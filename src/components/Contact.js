@@ -31,9 +31,12 @@ function Contact() {
 
   return (
     <Element name="contactMe">
-      <div className="w-full h-auto px-6 lg:px-20 flex flex-col py-10">
+      <div
+        className="w-full h-auto px-6 lg:px-20 flex flex-col py-10 text-white"
+        style={{ background: "#3F72DE" }}
+      >
         <span className="text-3xl">Contact Me</span>
-        <div className="w-full h-auto flex lg:space-x-6 shadow-lg p-6 lg:p-16 mt-6 justify-center items-align-center">
+        <div className="w-full h-auto flex lg:space-x-6 shadow-lg p-6 lg:p-16 mt-6 justify-center items-align-center bg-white text-gray-900 rounded-lg">
           <img src={ContactBg} alt="Contact pic" className="hidden lg:block lg:w-3/6 h-80" />
           <form ref={form} onSubmit={sendEmail} className="w-full h-auto flex flex-col lg:w-3/6">
             <label>Name</label>

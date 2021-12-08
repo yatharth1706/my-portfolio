@@ -19,7 +19,6 @@ function App() {
         <AboutMe />
         <MyProjects />
         <MyPublishedVideos />
-        <MyIllustrations />
         <Contact />
       </Layout>
     </Router>
