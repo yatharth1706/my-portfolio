@@ -61,15 +61,6 @@ const projectsConfig = [
     liveDemoLink: "https://hulu-clone-iota.vercel.app/",
     githubLink: "https://github.com/yatharth1706/hulu-clone",
   },
-
-  {
-    title: "CP Editor Web",
-    previewImage: CPEditor,
-    description:
-      "In this project, I did the frontend part. I made first design on Adobe XD. And then I built this from scratch using ReactJS, TailwindCSS and needed NPM Modules. It was fun to work on this project. This website's main purpose was to allow user to write code in any language and test it with different test cases and see the output.",
-    liveDemoLink: "",
-    githubLink: "",
-  },
 ];
 
 export default projectsConfig;
