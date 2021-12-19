@@ -4,7 +4,7 @@ import CPEditor from "../images/CPEditor.PNG";
 import DevBlogsPreview from "../images/DevBlogsPreview.PNG";
 import CloudSpacePreview from "../images/CloudspacePreview.PNG";
 import PortfolioPreview from "../images/PortfolioPreview.PNG";
-import ChatSpacePreview from "../images/ChatSpacePreview.png";
+import ChatSpacePreview from "../images/ChatSpacePreview1.png";
 
 const projectsConfig = [
   {
@@ -52,7 +52,6 @@ const projectsConfig = [
     liveDemoLink: "https://my-portfolio-six-jet.vercel.app/",
     githubLink: "https://github.com/yatharth1706/my-portfolio",
   },
-
   {
     title: "Hulu Clone 2.0",
     previewImage: HuluClone,
