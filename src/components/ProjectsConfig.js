@@ -2,7 +2,7 @@ import Emojigit from "../images/Emojigit.PNG";
 import HuluClone from "../images/HuluClone.PNG";
 import CPEditor from "../images/CPEditor.PNG";
 import DevBlogsPreview from "../images/DevBlogsPreview.PNG";
-import CloudSpacePreview from "../images/CloudspacePreview1.PNG";
+import CloudSpacePreview from "../images/CloudSpacePreview1.png";
 import PortfolioPreview from "../images/PortfolioPreview.PNG";
 import ChatSpacePreview from "../images/ChatSpacePreview.png";
 
