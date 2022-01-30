@@ -11,7 +11,7 @@ function Intro() {
         I love web designing and I elevate user experiences using my telekenesis power
       </span>
       <a
-        href="https://firebasestorage.googleapis.com/v0/b/devblogs-b8b03.appspot.com/o/Yatharth_Resume_Updated.pdf?alt=media&token=e894c8d2-32a4-4b6c-92c1-f87a6906d559"
+        href="https://drive.google.com/file/d/1VCrm19on3CA_Z3np40HcinDY8tXtum-0/view"
         target="_blank"
       >
         <button
