@@ -5,7 +5,7 @@ function Layout({ children }) {
   return (
     <div className="font-rubik">
       <Navbar />
-      <main>{children}</main>
+      <main className="xl:max-w-full 2xl:max-w-7xl mx-auto">{children}</main>
     </div>
   );
 }
