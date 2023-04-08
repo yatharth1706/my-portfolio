@@ -33,7 +33,7 @@ function Contact() {
     <Element name="contactMe">
       <div
         className="w-full h-auto px-6 lg:px-20 flex flex-col py-10 text-white"
-        style={{ background: "#3F72DE" }}
+        style={{ background: "#0177FB" }}
       >
         <span className="text-3xl">Contact Me</span>
         <div className="w-full h-auto flex lg:space-x-6 shadow-lg p-6 lg:p-16 mt-6 justify-center items-align-center bg-white text-gray-900 rounded-lg">

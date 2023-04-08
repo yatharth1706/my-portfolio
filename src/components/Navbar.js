@@ -6,11 +6,11 @@ function Navbar() {
 
   return (
     <div className="flex px-10 md:px-20 pt-2 pb-2 sticky top-0 shadow bg-white z-20">
-      <span style={{ color: "#648DE5" }} className=" mt-1 text-2xl lg:text-3xl  font-bold">
+      <span style={{ color: "#0177FB" }} className=" mt-1 text-2xl lg:text-3xl  font-bold">
         <sup>My</sup>Portfolio
       </span>
       <div
-        className="hidden w-full lg:flex justify-end space-x-10 text-custom-light-blue"
+        className="hidden w-full lg:flex justify-end space-x-10 opacity-70"
         style={{ lineHeight: "45px" }}
       >
         <li className="list-none cursor-pointer">

@@ -13,16 +13,15 @@ function MyProjects() {
 
   return (
     <Element name="myProjects">
-      <div className="px-6 py-10 md:px-20 mt-12" style={{ background: "#3F72DE" }}>
-        <span className="text-white text-3xl">My Projects</span>
-        <div className="flex flex-col space-y-8 py-10">
+      <div className="px-6 py-10 md:px-20 mt-12">
+        <span className="text-gray-800 text-3xl">My Projects</span>
+        <div className="flex flex-col space-y-10 py-10">
           {ProjectsConfig.map((config) => (
-            <div className="h-auto lg:h-96 w-full bg-black text-white opacity-80 rounded flex flex-col lg:flex-row">
-              <div className="w-full rounded">
-                <img
-                  src={config.previewImage}
-                  className="w-full h-full object-cover rounded rounded-b-none"
-                />
+            <div className="h-auto lg:h-96 w-full bg-gray-800 text-white rounded flex flex-col lg:flex-row">
+              <div
+                className={"w-full rounded-sm md:p-10 p-2 opacity-90 " + config?.backgroundColor}
+              >
+                <img src={config.previewImage} className="w-full h-full  rounded rounded-b-none" />
               </div>
               <div className="w-full h-6/6 flex flex-col p-6">
                 <span className="mb-1 font-bold" style={{ fontSize: "20px" }}>
@@ -39,7 +38,7 @@ function MyProjects() {
                   <p className="text-xs md:text-sm lg:text-md">{config.description}</p>
                 </div>
                 {config.liveDemoLink ? (
-                  <div className="flex justify-between mt-auto" style={{ color: "#3f72de" }}>
+                  <div className="flex justify-between mt-auto" style={{ color: "#0177FB" }}>
                     <a target="_blank" href={config.liveDemoLink} className="font-bold">
                       Live Demo
                     </a>

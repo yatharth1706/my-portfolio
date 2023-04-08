@@ -5,7 +5,7 @@ function MyPublishedVideos() {
   return (
     <Element name="myPublishedVideos">
       <div className="w-full h-auto px-6 py-6 md:px-20 flex flex-col mt-4 md:mt-10">
-        <span className="text-3xl">
+        <span className="text-3xl text-gray-800">
           Videos <span className="font-semibold">Published</span>
         </span>
 
@@ -21,7 +21,10 @@ function MyPublishedVideos() {
               ></iframe>
             </div>
             <div className="-mt-2 md:mt-0 w-full h-auto md:w-3/6 flex flex-col md:-ml-2 justify-center">
-              <div className="shadow-lg w-full h-auto p-6 lg:p-14 bg-custom-light-blue rounded-lg text-white">
+              <div
+                style={{ background: "#0177FB" }}
+                className="shadow-lg w-full h-auto p-6 lg:p-14 rounded-lg text-white"
+              >
                 <span className="text-2xl font-semibold mb-4">Formik & React JS</span>
                 <p className="mt-4">
                   In this youtube video, I explained what is FormikJS and how to use it to make
@@ -33,7 +36,10 @@ function MyPublishedVideos() {
           </div>
           <div className="w-full h-auto flex flex-col md:flex-row mb-10 mt-16 sm:mt-24 justify-center">
             <div className="hidden  w-full h-auto md:w-3/6 md:flex flex-col md:-mr-2 justify-center">
-              <div className="shadow-lg w-full h-auto p-6 lg:p-14 bg-custom-light-blue rounded-lg text-white">
+              <div
+                style={{ background: "#0177FB" }}
+                className="shadow-lg w-full h-auto p-6 lg:p-14  rounded-lg text-white"
+              >
                 <span className="text-2xl font-semibold mb-4">
                   Todo List Using React (Part - 1)
                 </span>
@@ -69,7 +75,7 @@ function MyPublishedVideos() {
         </div>
         <div className="mx-auto mt-4 mb-8">
           <a href="https://www.youtube.com/channel/UCuttXyopYHZdV8_0ofvqBUQ" target="_blank">
-            <button className="px-2 py-2 w-60 bg-custom-light-blue rounded text-white">
+            <button style={{ background: "#0177FB" }} className="px-2 py-2 w-60 rounded text-white">
               Visit my youtube channel
             </button>
           </a>

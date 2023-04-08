@@ -5,7 +5,7 @@ import { Element } from "react-scroll";
 function AboutMe() {
   return (
     <Element name="aboutMe">
-      <div className="w-full h-auto text-3xl mt-10 px-6 text-center md:text-left py-8 md:px-20">
+      <div className="text-gray-800 w-full h-auto text-3xl mt-10 px-6 text-center md:text-left py-8 md:px-20">
         <span className="flex justify-center md:justify-left">
           About <span className="font-bold ml-2">ME</span>
         </span>
@@ -21,9 +21,9 @@ function AboutMe() {
             </div>
           </div>
           <div className="flex flex-col text-lg mt-10 md:mt-16 lg:mt-28">
-            <span className="text-2xl">Hello, I am</span>
-            <span className="text-2xl font-semibold mt-2">Yatharth Verma</span>
-            <span className="mt-2 text-sm">
+            <span className="text-2xl text-gray-700">Hello, I am</span>
+            <span className="text-2xl font-semibold mt-2 text-gray-900">Yatharth Verma</span>
+            <span className="mt-2 text-sm text-gray-700">
               Currently, I am working as SDE in <b>LeadSquared, Bangalore</b>. I love web
               development. I did my graduation from <b>Lovely Professional University</b>
             </span>
