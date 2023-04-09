@@ -22,7 +22,7 @@ function AboutMe() {
           </div>
           <div className="flex flex-col text-lg mt-10 md:mt-16 lg:mt-28">
             <span className="text-2xl text-gray-700">Hello, I am</span>
-            <span className="text-2xl font-semibold mt-2 text-gray-900">Yatharth Verma</span>
+            <span className="text-2xl font-semibold mt-2 text-blue-500">Yatharth Verma</span>
             <span className="mt-2 text-sm text-gray-700">
               Currently, I am working as SDE in <b>LeadSquared, Bangalore</b>. I love web
               development. I did my graduation from <b>Lovely Professional University</b>

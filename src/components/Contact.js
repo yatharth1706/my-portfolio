@@ -8,25 +8,35 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm(
-        process.env.REACT_APP_EMAIL_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
-        form.current,
-        process.env.REACT_APP_USER_ID
-      )
-      .then(
-        (result) => {
-          // show notification
-          console.log(result.text);
-          form.current.reset();
-        },
-        (error) => {
-          // show notification
-          console.log(error.text);
-        }
-      );
+    const formData = new FormData(form.current);
+    const data = Object.fromEntries(formData.entries());
+    if (
+      data?.name.trim().length === 0 ||
+      data?.email.trim().length === 0 ||
+      data?.message?.trim().length === 0
+    ) {
+      alert("Fill all the values in the form before submission");
+    } else {
+      emailjs
+        .sendForm(
+          process.env.REACT_APP_EMAIL_SERVICE_ID,
+          process.env.REACT_APP_TEMPLATE_ID,
+          form.current,
+          process.env.REACT_APP_USER_ID
+        )
+        .then(
+          (result) => {
+            // show notification
+            alert("Successfully sent the message!");
+            form.current.reset();
+          },
+          (error) => {
+            // show notification
+            console.log(error.text);
+            alert(error.text);
+          }
+        );
+    }
   };
 
   return (

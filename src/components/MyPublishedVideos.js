@@ -25,8 +25,10 @@ function MyPublishedVideos() {
                 style={{ background: "#0177FB" }}
                 className="shadow-lg w-full h-auto p-6 lg:p-14 rounded-lg text-white"
               >
-                <span className="text-2xl font-semibold mb-4">Formik & React JS</span>
-                <p className="mt-4">
+                <span className="font-semibold mb-4" style={{ fontSize: "20px" }}>
+                  Formik & React JS
+                </span>
+                <p className="mt-4 leading-6 md:leading-loose text-xs md:text-sm lg:text-md">
                   In this youtube video, I explained what is FormikJS and how to use it to make
                   forms easily. I also taught validations using formik js and how to apply them to
                   forms in easy way.
@@ -40,10 +42,10 @@ function MyPublishedVideos() {
                 style={{ background: "#0177FB" }}
                 className="shadow-lg w-full h-auto p-6 lg:p-14  rounded-lg text-white"
               >
-                <span className="text-2xl font-semibold mb-4">
+                <span style={{ fontSize: "20px" }} className="font-semibold mb-4">
                   Todo List Using React (Part - 1)
                 </span>
-                <p className="mt-4">
+                <p className="mt-4 leading-6 md:leading-loose text-xs md:text-sm lg:text-md">
                   In this youtube video, I made a simple Todo App. I first designed it on Adobe XD.
                   And Then I did the coding part in React. It was fun. It got almost 10000 views
                   within 6 months.
@@ -63,8 +65,8 @@ function MyPublishedVideos() {
             </div>
             <div className="-mt-2 w-full h-auto md:w-3/6 sm:flex flex-col md:-ml-2 justify-center md:hidden">
               <div className="shadow-lg w-full h-auto p-6 lg:p-14 bg-custom-light-blue rounded-lg text-white">
-                <span className="text-2xl font-semibold mb-4"></span>
-                <p className="mt-4">
+                <span className="font-semibold mb-4 text-xs md:text-sm lg:text-md"></span>
+                <p className="mt-4 leading-6 md:leading-loose">
                   In this youtube video, I explained what is FormikJS and how to use it to make
                   forms easily. I also taught validations using formik js and how to apply them to
                   forms in easy way.

@@ -23,7 +23,7 @@ function MyProjects() {
               >
                 <img src={config.previewImage} className="w-full h-full  rounded rounded-b-none" />
               </div>
-              <div className="w-full h-6/6 flex flex-col p-6">
+              <div className="w-full h-6/6 flex flex-col p-8">
                 <span className="mb-1 font-bold" style={{ fontSize: "20px" }}>
                   {config.title}
                 </span>
@@ -35,7 +35,9 @@ function MyProjects() {
                   )}
                 </div>
                 <div className="mt-2 mb-4">
-                  <p className="text-xs md:text-sm lg:text-md">{config.description}</p>
+                  <p className="text-xs md:text-sm lg:text-md leading-6 md:leading-loose">
+                    {config.description}
+                  </p>
                 </div>
                 {config.liveDemoLink ? (
                   <div className="flex justify-between mt-auto" style={{ color: "#0177FB" }}>

@@ -18,16 +18,6 @@ const projectsConfig = [
   },
 
   {
-    title: "CloudSpace",
-    previewImage: CloudSpacePreview,
-    description:
-      "Efficient storage solution. Support image file upload right now. Provides download url as well as preview of uploaded file. Tech stack used in this are AWS Amplify, Cognito, API Gateway, DynamoDB and ReactJS",
-    liveDemoLink: "https://cloud-space.vercel.app/",
-    githubLink: "https://github.com/yatharth1706/Cloud-Space",
-    backgroundColor: "bg-yellow-500",
-  },
-
-  {
     title: "Chat Space",
     previewImage: ChatSpacePreview,
     description:
@@ -35,6 +25,16 @@ const projectsConfig = [
     liveDemoLink: "https://chat-space.vercel.app",
     githubLink: "https://github.com/yatharth1706/chatspace",
     backgroundColor: "bg-gray-800",
+  },
+
+  {
+    title: "CloudSpace",
+    previewImage: CloudSpacePreview,
+    description:
+      "Efficient storage solution. Support image file upload right now. Provides download url as well as preview of uploaded file. Tech stack used in this are AWS Amplify, Cognito, API Gateway, DynamoDB and ReactJS",
+    liveDemoLink: "https://cloud-space.vercel.app/",
+    githubLink: "https://github.com/yatharth1706/Cloud-Space",
+    backgroundColor: "bg-yellow-500",
   },
 
   {
