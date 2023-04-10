@@ -14,7 +14,7 @@ function SkillsSection() {
             My <span style={{ fontWeight: "700" }}>Skills</span>
           </span>
 
-          <div className="w-full pb-10 h-auto mt-10 grid grid-cols-2 md:grid-cols-4 gap-10">
+          <div className="w-full pb-10 h-auto mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-10">
             <div className="flex justify-center bg-blue-500 rounded-xl text-white">
               <ul className="border w-full p-4 rounded-xl border-blue-500">
                 <li className="text-white text-lg mb-5">Frontend</li>
