@@ -18,7 +18,7 @@ function SkillsSection() {
             <div className="flex justify-center bg-blue-500 rounded-xl text-white">
               <ul className="border w-full p-4 rounded-xl border-blue-500">
                 <li className="text-white text-lg mb-5">Frontend</li>
-                <li className="space-x-8">
+                <li className="flex justify-center items-center flex-wrap gap-3 md:gap-5 ">
                   <i className="fab fa-html5 text-white" style={{ fontSize: "26px" }}></i>
                   <i className="fab fa-css3-alt text-white" style={{ fontSize: "26px" }}></i>
                   <i className="fab fa-js-square text-white" style={{ fontSize: "26px" }}></i>
@@ -30,7 +30,7 @@ function SkillsSection() {
               <ul className="border w-full p-4 rounded-xl border-blue-500">
                 <li className="text-white text-lg mb-5">Backend</li>
 
-                <li className="space-x-8">
+                <li className="gap-3 md:gap-5  flex justify-center items-center flex-wrap">
                   <i className="fab fa-aws text-white" style={{ fontSize: "26px" }}></i>
                   <i className="fab fa-python text-white" style={{ fontSize: "26px" }}></i>
                   <i className="fab fa-node text-white" style={{ fontSize: "26px" }}></i>
@@ -41,7 +41,7 @@ function SkillsSection() {
               <ul className="border w-full p-4 rounded-xl border-blue-500">
                 <li className="text-white text-lg mb-5">Databases</li>
 
-                <li className="flex justify-center space-x-3">
+                <li className="flex justify-center gap-3 md:gap-5  items-center flex-wrap">
                   <MySqlIcon className="" style={{ width: "26px" }} />
                   <MongodbIcon className="" style={{ width: "26px" }} />
                 </li>
@@ -52,7 +52,7 @@ function SkillsSection() {
               <ul className="border w-full p-4 rounded-xl border-blue-500">
                 <li className="text-white text-lg mb-3">Tools</li>
 
-                <li className="flex justify-center space-x-8 items-center">
+                <li className="gap-3 md:gap-5  flex justify-center items-center flex-wrap">
                   <i className="fab fa-github text-white" style={{ fontSize: "22px" }}></i>
                   <AdobeXDIcon className="fill-current text-white" style={{ width: "22px" }} />
                   <FigmaIcon className="text-white" style={{ width: "22px" }} />

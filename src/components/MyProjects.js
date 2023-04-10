@@ -17,11 +17,15 @@ function MyProjects() {
         <span className="text-gray-800 text-3xl">My Projects</span>
         <div className="flex flex-col space-y-10 py-10">
           {ProjectsConfig.map((config) => (
-            <div className="h-auto lg:h-96 w-full bg-gray-800 text-white rounded flex flex-col lg:flex-row">
+            <div className="h-auto w-full bg-gray-800 text-white rounded flex flex-col lg:flex-row">
               <div
-                className={"w-full rounded-sm md:p-10 p-2 opacity-90 " + config?.backgroundColor}
+                className={"w-full rounded-sm md:p-10 p-3 opacity-90 " + config?.backgroundColor}
               >
-                <img src={config.previewImage} className="w-full h-full  rounded rounded-b-none" />
+                <img
+                  src={config.previewImage}
+                  className="w-full h-full rounded object-contain"
+                  alt="Preview"
+                />
               </div>
               <div className="w-full h-6/6 flex flex-col p-8">
                 <span className="mb-1 font-bold" style={{ fontSize: "20px" }}>
