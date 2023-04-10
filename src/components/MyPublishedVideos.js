@@ -76,8 +76,20 @@ function MyPublishedVideos() {
           </div>
         </div>
         <div className="mx-auto mt-4 mb-8">
-          <a href="https://www.youtube.com/channel/UCuttXyopYHZdV8_0ofvqBUQ" target="_blank">
-            <button style={{ background: "#0177FB" }} className="px-2 py-2 w-60 rounded text-white">
+          <a
+            href="https://www.youtube.com/channel/UCuttXyopYHZdV8_0ofvqBUQ"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button
+              style={{
+                color: "white",
+                background: "#0177FB",
+                borderRadius: "10px",
+                padding: "12px",
+              }}
+              className="text-white mt-4 w-60  mx-auto md:mx-0 transition-transform duration-300 transform hover:scale-105"
+            >
               Visit my youtube channel
             </button>
           </a>

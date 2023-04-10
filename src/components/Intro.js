@@ -21,18 +21,16 @@ function Intro() {
         </span>
         <span></span>
       </span>
-      <span
-        style={{ fontSize: "15px", fontWeight: "200", marginTop: "8px" }}
-        className="opacity-90"
-      >
+      <span style={{ fontSize: "15px", fontWeight: "300", marginTop: "8px" }}>
         I love web designing and I elevate user experiences using my telekenesis power
       </span>
       <a
         href="https://drive.google.com/file/d/1T4Cpkb6D1D9_Ni9TzM6dS5eavPM5aGtL/view?usp=sharing"
         target="_blank"
+        rel="noreferrer"
       >
         <button
-          className="text-white mt-4 w-60  mx-auto md:mx-0"
+          className="text-white mt-4 w-60  mx-auto md:mx-0 transition-transform duration-300 transform hover:scale-105"
           style={{ color: "white", background: "#0177FB", borderRadius: "10px", padding: "12px" }}
         >
           Download Resume

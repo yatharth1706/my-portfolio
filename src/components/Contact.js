@@ -68,8 +68,13 @@ function Contact() {
             />
             <button
               type="submit"
-              className="mt-4 text-white px-2 py-1 rounded-sm"
-              style={{ background: "#3F72DE" }}
+              className="mt-4 text-white px-2 py-1 rounded-sm transition-transform transform duration-300 hover:scale-95"
+              style={{
+                color: "white",
+                background: "#0177FB",
+                borderRadius: "6px",
+                padding: "7px",
+              }}
             >
               Submit
             </button>
