@@ -25,7 +25,7 @@ function Intro() {
         I love web designing and I elevate user experiences using my telekenesis power
       </span>
       <a
-        href="https://drive.google.com/file/d/1T4Cpkb6D1D9_Ni9TzM6dS5eavPM5aGtL/view?usp=sharing"
+        href="https://drive.google.com/file/d/13O5FJH3-wlhMHP_23jjtcURofQ-kJA0p/view?usp=share_link"
         target="_blank"
         rel="noreferrer"
       >
