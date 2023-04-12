@@ -12,7 +12,7 @@ const projectsConfig = [
     previewImage: PortfolioPreview,
     description:
       "Portfolio website built using ReactJS and TailwindCSS. Includes information about me and my skills along with side projects.",
-    liveDemoLink: "https://my-portfolio-six-jet.vercel.app/",
+    liveDemoLink: "https://yatharth-portfolio.vercel.app/",
     githubLink: "https://github.com/yatharth1706/my-portfolio",
     backgroundColor: "bg-blue-500",
   },
