@@ -19,7 +19,7 @@ function MyProjects() {
           {ProjectsConfig.map((config) => (
             <div className="h-auto w-full bg-gray-800 text-white rounded flex flex-col lg:flex-row">
               <div
-                className={"w-full rounded-sm md:p-10 p-3" + config?.backgroundColor}
+                className={"w-full rounded-sm md:p-10 p-3 " + config?.backgroundColor}
               >
                 <img
                   src={config.previewImage}
