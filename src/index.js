@@ -3,14 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-// eslint-disable-next-line import/no-unresolved
-import { Analytics } from "@vercel/analytics/dist/react";
-// import { Analytics } from "@vercel/analytics/dist/react";
+import { inject } from "@vercel/analytics";
 
+inject();
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Analytics mode="production" />
   </React.StrictMode>,
   document.getElementById("root")
 );
