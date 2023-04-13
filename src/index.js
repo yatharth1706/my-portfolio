@@ -3,12 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { Analytics } from "@vercel/analytics/dist/react";
+import { Analytics } from "@vercel/analytics/react";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Analytics />
+    <Analytics mode="production" />
   </React.StrictMode>,
   document.getElementById("root")
 );
