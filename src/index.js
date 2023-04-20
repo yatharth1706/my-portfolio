@@ -10,54 +10,35 @@ inject();
 ReactDOM.render(
   <React.StrictMode>
     <Helmet>
-      <meta name="title" content="Yatharth Verma Portfolio - Software Engineer" />
+      {/* General tags */}
+      <title>Yatharth's Portfolio</title>
+      <meta name="url" content="https://yatharth-portfolio.vercel.app/" />
       <meta
         name="description"
-        content="Yatharth Verma's Personal Portfolio Website. Made with ReactJS and Tailwind CSS."
+        content="Checkout my porfolio. Its built using ReactJS and Tailwind CSS"
       />
-      <meta name="author" content="Yatharth Verma" />
-      <meta
-        name="keywords"
-        content="yatharth portfolio, yatharth verma, yatharth1706, yatharth's portfolio, yatharth verma"
-      />
-      <meta name="robots" content="index, follow" />
-      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="language" content="English" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="theme-color" content="#E95420" />
-
-      {/* Search Engine  */}
       <meta name="image" content="/preview1.png" />
+      <link rel="canonical" href="https://yatharth-portfolio.vercel.app/" />
 
-      {/* Schema.org for Google  */}
-      <meta itemProp="name" content="Yatharth Verma Portfolio - Software Engineer" />
+      {/* OpenGraph tags */}
+      <meta property="og:url" content="https://yatharth-portfolio.vercel.app/" />
+      <meta property="og:title" content="Yatharth's Portfolio" />
       <meta
-        itemProp="description"
-        content="Yatharth Verma's Portfolio. Made with ReactJS and Tailwind CSS."
+        property="og:description"
+        content="Checkout my porfolio. Its built using ReactJS and Tailwind CSS"
       />
-      <meta itemProp="image" content="/preview1.png" />
-      {/* Twitter */}
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:title" content="Yatharth Verma Portfolio - Software Engineer" />
+      <meta property="og:image" content="/preview1.png" />
+
+      {/* Twitter Card tags */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:creator" content="yatharth170699" />
+      <meta name="twitter:title" content="Yatharth's Portfolio" />
       <meta
         name="twitter:description"
-        content="Yatharth Verma's Portfolio. Made with ReactJS and Tailwind CSS."
+        content="Checkout my porfolio. Its built using ReactJS and Tailwind CSS"
       />
-      <meta name="twitter:site" content="yatharth170699" />
-      <meta name="twitter:creator" content="yatharth170699" />
-      <meta name="twitter:image:src" content="/preview1.png" />
 
-      {/* Open Graph general (Facebook, Pinterest & Google+) */}
-      <meta name="og:title" content="Yatharth Verma Portfolio - Software Engineer" />
-      <meta
-        name="og:description"
-        content="Yatharth Verma's Portfolio. Made with ReactJS and Tailwind CSS."
-      />
-      <meta name="og:image" content="/preview1.png" />
-      <meta name="og:url" content="https://yatharth-portfolio.vercel.app/" />
-      <meta name="og:site_name" content="Yatharth Verma Personal Portfolio" />
-      <meta name="og:locale" content="en_IN" />
-      <meta name="og:type" content="website" />
+      <meta name="twitter:image" content="/preview1.png" />
     </Helmet>
     <App />
   </React.StrictMode>,
