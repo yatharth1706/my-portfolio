@@ -20,14 +20,20 @@ ReactDOM.render(
       <meta property="og:url" content="https://yatharth-portfolio.vercel.app/" />
       <meta property="og:title" content="Yatharth's Portfolio" />
       <meta property="og:description" content="Web site created using create-react-app" />
-      <meta property="og:image" content="/preview1.png" />
+      <meta
+        property="og:image"
+        content="https://firebasestorage.googleapis.com/v0/b/devblogs-b8b03.appspot.com/o/preview1.png?alt=media&token=6c0ad525-cb6e-4e59-8184-e7889d687fe9"
+      />
 
       {/* <!-- Twitter --> */}
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="https://yatharth-portfolio.vercel.app/" />
       <meta property="twitter:title" content="Yatharth's Portfolio" />
       <meta property="twitter:description" content="Web site created using create-react-app" />
-      <meta property="twitter:image" content="/preview1.png" />
+      <meta
+        property="twitter:image"
+        content="https://firebasestorage.googleapis.com/v0/b/devblogs-b8b03.appspot.com/o/preview1.png?alt=media&token=6c0ad525-cb6e-4e59-8184-e7889d687fe9"
+      />
     </Helmet>
     <App />
   </React.StrictMode>,
