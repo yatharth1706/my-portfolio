@@ -10,35 +10,24 @@ inject();
 ReactDOM.render(
   <React.StrictMode>
     <Helmet>
-      {/* General tags */}
+      {/* <!-- Primary Meta Tags --> */}
       <title>Yatharth's Portfolio</title>
-      <meta name="url" content="https://yatharth-portfolio.vercel.app/" />
-      <meta
-        name="description"
-        content="Checkout my porfolio. Its built using ReactJS and Tailwind CSS"
-      />
-      <meta name="image" content="/preview1.png" />
-      <link rel="canonical" href="https://yatharth-portfolio.vercel.app/" />
+      <meta name="title" content="Yatharth's Portfolio" />
+      <meta name="description" content="Web site created using create-react-app" />
 
-      {/* OpenGraph tags */}
+      {/* <!-- Open Graph / Facebook --> */}
+      <meta property="og:type" content="website" />
       <meta property="og:url" content="https://yatharth-portfolio.vercel.app/" />
       <meta property="og:title" content="Yatharth's Portfolio" />
-      <meta
-        property="og:description"
-        content="Checkout my porfolio. Its built using ReactJS and Tailwind CSS"
-      />
+      <meta property="og:description" content="Web site created using create-react-app" />
       <meta property="og:image" content="/preview1.png" />
 
-      {/* Twitter Card tags */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:creator" content="yatharth170699" />
-      <meta name="twitter:title" content="Yatharth's Portfolio" />
-      <meta
-        name="twitter:description"
-        content="Checkout my porfolio. Its built using ReactJS and Tailwind CSS"
-      />
-
-      <meta name="twitter:image" content="/preview1.png" />
+      {/* <!-- Twitter --> */}
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://yatharth-portfolio.vercel.app/" />
+      <meta property="twitter:title" content="Yatharth's Portfolio" />
+      <meta property="twitter:description" content="Web site created using create-react-app" />
+      <meta property="twitter:image" content="/preview1.png" />
     </Helmet>
     <App />
   </React.StrictMode>,
