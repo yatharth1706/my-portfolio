@@ -27,10 +27,7 @@ ReactDOM.render(
       <meta name="theme-color" content="#E95420" />
 
       {/* Search Engine  */}
-      <meta
-        name="image"
-        content="https://user-images.githubusercontent.com/32243289/232308492-450a80af-b9b8-4636-87d9-f1c4847ed721.jpg"
-      />
+      <meta name="image" content="/preview1.png" />
 
       {/* Schema.org for Google  */}
       <meta itemProp="name" content="Yatharth Verma Portfolio - Software Engineer" />
@@ -38,10 +35,7 @@ ReactDOM.render(
         itemProp="description"
         content="Yatharth Verma's Portfolio. Made with ReactJS and Tailwind CSS."
       />
-      <meta
-        itemProp="image"
-        content="https://user-images.githubusercontent.com/32243289/232308492-450a80af-b9b8-4636-87d9-f1c4847ed721.jpg"
-      />
+      <meta itemProp="image" content="/preview1.png" />
       {/* Twitter */}
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content="Yatharth Verma Portfolio - Software Engineer" />
@@ -51,10 +45,7 @@ ReactDOM.render(
       />
       <meta name="twitter:site" content="yatharth170699" />
       <meta name="twitter:creator" content="yatharth170699" />
-      <meta
-        name="twitter:image:src"
-        content="https://user-images.githubusercontent.com/32243289/232308492-450a80af-b9b8-4636-87d9-f1c4847ed721.jpg"
-      />
+      <meta name="twitter:image:src" content="/preview1.png" />
 
       {/* Open Graph general (Facebook, Pinterest & Google+) */}
       <meta name="og:title" content="Yatharth Verma Portfolio - Software Engineer" />
@@ -62,10 +53,7 @@ ReactDOM.render(
         name="og:description"
         content="Yatharth Verma's Portfolio. Made with ReactJS and Tailwind CSS."
       />
-      <meta
-        name="og:image"
-        content="https://user-images.githubusercontent.com/32243289/232308492-450a80af-b9b8-4636-87d9-f1c4847ed721.jpg"
-      />
+      <meta name="og:image" content="/preview1.png" />
       <meta name="og:url" content="https://yatharth-portfolio.vercel.app/" />
       <meta name="og:site_name" content="Yatharth Verma Personal Portfolio" />
       <meta name="og:locale" content="en_IN" />
