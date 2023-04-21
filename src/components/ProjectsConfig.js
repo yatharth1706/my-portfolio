@@ -28,16 +28,6 @@ const projectsConfig = [
   },
 
   {
-    title: "CloudSpace",
-    previewImage: CloudSpacePreview,
-    description:
-      "Efficient storage solution. Support image file upload right now. Provides download url as well as preview of uploaded file. Tech stack used in this are AWS Amplify, Cognito, API Gateway, DynamoDB and ReactJS",
-    liveDemoLink: "https://cloud-space.vercel.app/",
-    githubLink: "https://github.com/yatharth1706/Cloud-Space",
-    backgroundColor: "bg-yellow-500",
-  },
-
-  {
     title: "Emoji Git CLI Tool",
     previewImage: Emojigit,
     description:
@@ -48,6 +38,17 @@ const projectsConfig = [
       "https://img.shields.io/npm/dt/emojigit.svg?style=flat-square)](https://www.npmjs.com/package/emojigit",
     backgroundColor: "bg-indigo-500",
   },
+
+  {
+    title: "CloudSpace",
+    previewImage: CloudSpacePreview,
+    description:
+      "Efficient storage solution. Support image file upload right now. Provides download url as well as preview of uploaded file. Tech stack used in this are AWS Amplify, Cognito, API Gateway, DynamoDB and ReactJS",
+    liveDemoLink: "https://cloud-space.vercel.app/",
+    githubLink: "https://github.com/yatharth1706/Cloud-Space",
+    backgroundColor: "bg-yellow-500",
+  },
+
   {
     title: "Hulu Clone 2.0",
     previewImage: HuluClone,
