@@ -33,11 +33,7 @@ function Navbar() {
             Videos
           </Link>
         </li>
-        <li className="list-none cursor-pointer">
-          <Link to="myIllustrations" smooth={true}>
-            Illustrations
-          </Link>
-        </li>
+
         <li className="list-none cursor-pointer">
           <Link to="contactMe" smooth={true}>
             Contact Me
