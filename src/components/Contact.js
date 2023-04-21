@@ -42,7 +42,7 @@ function Contact() {
   return (
     <Element name="contactMe">
       <div
-        className="w-full h-auto px-6 lg:px-20 flex flex-col py-10 text-white"
+        className="w-full h-auto px-4 lg:px-20 flex flex-col py-10 text-white"
         style={{ background: "#0177FB" }}
       >
         <span className="text-3xl">Contact Me</span>

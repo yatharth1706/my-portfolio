@@ -5,7 +5,7 @@ function Navbar() {
   const [isNavToggled, setIsNavToggled] = useState(false);
 
   return (
-    <div className="flex px-10 md:px-20 pt-2 pb-2 sticky top-0 shadow bg-white z-20">
+    <div className="flex px-4 md:px-20 pt-2 pb-2 sticky top-0 shadow bg-white z-20">
       <span style={{ color: "#0177FB" }} className=" mt-1 text-2xl lg:text-3xl  font-bold">
         <sup>My</sup>Portfolio
       </span>
@@ -54,7 +54,7 @@ function Navbar() {
             ? "absolute right-10 md:right-20 text-white top-16 p-4 space-y-4 block transition-all duration-300 ease-in-out rounded bg-blue-700 text-white text-sm p-10 shadow-2xl"
             : "absolute right-10 md:right-20 text-white top-16 p-4 space-y-4 hidden transition-all duration-300 ease-in-out"
         }
-        style={{ background: "#3069e2" }}
+        style={{ background: "#0177FB" }}
       >
         <li className="list-none cursor-pointer">
           <Link to="skills" onClick={() => setIsNavToggled(!isNavToggled)}>

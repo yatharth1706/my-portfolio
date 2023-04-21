@@ -2,10 +2,9 @@ import React from "react";
 
 function Intro() {
   return (
-    <div className="w-full flex md:w-3/6 flex-col font-rubik px-6 sm:px-20 md:pr-0 mt-10 md:mt-20  mb-10 mx-auto text-center md:text-left">
-      <span className="text-md mb-1 opacity-80">Welcome! I am</span>
+    <div className="w-full flex md:w-3/6 flex-col font-rubik px-4 sm:px-20 md:pr-0 mt-14 sm:mt-10 md:mt-20  mb-10 mx-auto text-center md:text-left">
       <span style={{ fontWeight: "400" }} className="text-3xl mb-2">
-        <span className="relative whitespace-nowrap" style={{ color: "#0177FB", fontSize: "40px" }}>
+        <span className="relative whitespace-nowrap" style={{ color: "#0177FB", fontSize: "35px" }}>
           <svg
             aria-hidden="true"
             viewBox="0 0 418 42"
@@ -21,8 +20,11 @@ function Intro() {
         </span>
         <span></span>
       </span>
-      <span style={{ fontSize: "15px", fontWeight: "300", marginTop: "8px" }}>
-        I love web designing and I elevate user experiences using my telekenesis power
+      <span className="mt-4 font-normal text-gray-800">
+        Creative Full Stack Web Developer. <br />
+        <span className="text-sm">
+          I love web designing and elevate user experiences using my telekenesis power
+        </span>
       </span>
       <a
         href="https://drive.google.com/file/d/13O5FJH3-wlhMHP_23jjtcURofQ-kJA0p/view?usp=share_link"

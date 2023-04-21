@@ -5,7 +5,7 @@ import { Element } from "react-scroll";
 function AboutMe() {
   return (
     <Element name="aboutMe">
-      <div className="text-gray-800 w-full h-auto text-3xl mt-10 px-6 text-center md:text-left py-8 md:px-20">
+      <div className="text-gray-800 w-full h-auto text-3xl sm:mt-10 px-4 text-center md:text-left py-8 md:px-20">
         <span className="flex justify-center md:justify-left">
           About <span className="font-bold ml-2">ME</span>
         </span>

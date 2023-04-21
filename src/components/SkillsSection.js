@@ -9,7 +9,7 @@ function SkillsSection() {
   return (
     <Element name="skills">
       <div id="skills" className="flex w-full h-auto">
-        <div className="py-10 px-6 md:px-20 flex flex-col w-full text-center">
+        <div className="py-10 px-4 md:px-20 flex flex-col w-full text-center">
           <span className="text-white-800" style={{ fontSize: "35px" }}>
             My <span style={{ fontWeight: "700" }}>Skills</span>
           </span>
