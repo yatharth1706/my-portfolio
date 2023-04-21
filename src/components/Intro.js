@@ -40,25 +40,33 @@ function Intro() {
       </a>
 
       <div className="flex space-x-8 mt-6 mb-8 mx-auto md:mx-0">
-        <a href="http://github.com/yatharth1706" target="_blank">
+        <a href="http://github.com/yatharth1706" target="_blank" rel="noreferrer">
           <i
             className="fab fa-github opacity-80"
             style={{ fontSize: "24px", color: "#0177FB" }}
           ></i>
         </a>
-        <a href="https://www.linkedin.com/in/yatharth-verma-938924169/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/yatharth-verma-938924169/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i
             className="fab fa-linkedin-in opacity-80"
             style={{ fontSize: "24px", color: "#0177FB" }}
           ></i>
         </a>
-        <a href="https://twitter.com/yatharth170699" target="_blank">
+        <a href="https://twitter.com/yatharth170699" target="_blank" rel="noreferrer">
           <i
             className="fab fa-twitter opacity-80"
             style={{ fontSize: "24px", color: "#0177FB" }}
           ></i>
         </a>
-        <a href="https://www.instagram.com/yatharth_illustrator/?hl=en" target="_blank">
+        <a
+          href="https://www.instagram.com/yatharth_illustrator/?hl=en"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i
             className="fab fa-instagram opacity-80"
             style={{ fontSize: "24px", color: "#0177FB" }}
