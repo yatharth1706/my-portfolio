@@ -62,16 +62,6 @@ function Intro() {
             style={{ fontSize: "24px", color: "#0177FB" }}
           ></i>
         </a>
-        <a
-          href="https://www.instagram.com/yatharth_illustrator/?hl=en"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i
-            className="fab fa-instagram opacity-80"
-            style={{ fontSize: "24px", color: "#0177FB" }}
-          ></i>
-        </a>
       </div>
     </div>
   );
