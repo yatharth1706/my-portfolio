@@ -45,7 +45,7 @@ const projectsConfig = [
     description:
       "Send crypto across the world using Krypt. Built my first dApp. Learnt it from JavaScript Mastery. It was really exciting to build this. Learnt a lot about blockchain, solidity, how to write smart contracts and get them deployed on blockchain. It was amazing learning experience",
     liveDemoLink: "https://github.com/yatharth1706/dApp-web3",
-    githubLink: "https://github.com/yatharth1706/chatspace",
+    githubLink: "https://github.com/yatharth1706/dApp-web3",
     backgroundColor: "bg-[#03032952]",
   },
 
