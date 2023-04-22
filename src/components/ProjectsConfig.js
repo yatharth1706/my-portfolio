@@ -1,6 +1,6 @@
 import Emojigit from "../images/Emojigit.PNG";
 import HuluClone from "../images/HuluClone.PNG";
-import CPEditor from "../images/CPEditor.PNG";
+import KryptPreview from "../images/KryptPreview.jpg";
 import DevBlogsPreview from "../images/DevBlogsPreview.PNG";
 import CloudSpacePreview from "../images/CloudSpacePreview1.png";
 import PortfolioPreview from "../images/PortfolioPreview.PNG";
@@ -18,16 +18,6 @@ const projectsConfig = [
   },
 
   {
-    title: "Chat Space",
-    previewImage: ChatSpacePreview,
-    description:
-      "Fast One to One messaging app built using NextJS, Styled Components, Firebase v8 (Firestore and Auth), and React Firebase hooks for realtime fetching of data from the database. ",
-    liveDemoLink: "https://chat-space.vercel.app",
-    githubLink: "https://github.com/yatharth1706/chatspace",
-    backgroundColor: "bg-gray-800",
-  },
-
-  {
     title: "Emoji Git CLI Tool",
     previewImage: Emojigit,
     description:
@@ -37,6 +27,26 @@ const projectsConfig = [
     downloads:
       "https://img.shields.io/npm/dt/emojigit.svg?style=flat-square)](https://www.npmjs.com/package/emojigit",
     backgroundColor: "bg-indigo-500",
+  },
+
+  {
+    title: "Chat Space",
+    previewImage: ChatSpacePreview,
+    description:
+      "Fast One to One messaging app built using NextJS, Styled Components, Firebase v8 (Firestore and Auth), and React Firebase hooks for realtime fetching of data from the database. It allows user to send messages in realtime and can see when the person was last time online. It was amazing learning experience while building this project. ",
+    liveDemoLink: "https://chat-space.vercel.app",
+    githubLink: "https://github.com/yatharth1706/chatspace",
+    backgroundColor: "bg-gray-800",
+  },
+
+  {
+    title: "Krypt",
+    previewImage: KryptPreview,
+    description:
+      "Send crypto across the world using Krypt. Built my first dApp. Learnt it from JavaScript Mastery. It was really exciting to build this. Learnt a lot about blockchain, solidity, how to write smart contracts and get them deployed on blockchain. It was amazing learning experience",
+    liveDemoLink: "https://github.com/yatharth1706/dApp-web3",
+    githubLink: "https://github.com/yatharth1706/chatspace",
+    backgroundColor: "bg-[#03032952]",
   },
 
   {
