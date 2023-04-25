@@ -5,8 +5,11 @@ function Navbar() {
   const [isNavToggled, setIsNavToggled] = useState(false);
 
   return (
-    <div className="flex px-4 md:px-20 pt-2 pb-2 sticky top-0 shadow bg-white z-20">
-      <span style={{ color: "#0177FB" }} className=" mt-1 text-2xl lg:text-3xl  font-bold">
+    <div className="flex px-4 md:px-20 items-baseline py-2  sticky top-0 shadow bg-white z-20">
+      <span
+        style={{ color: "#0177FB" }}
+        className=" mt-1 text-xl md:text-2xl font-medium md:font-semibold"
+      >
         <sup>My</sup>Portfolio
       </span>
       <div
@@ -46,7 +49,11 @@ function Navbar() {
         onClick={() => setIsNavToggled(!isNavToggled)}
         style={{ width: "auto" }}
       >
-        <i className="fas fa-bars text-custom-light-blue mt-3" style={{ fontSize: "22px" }}></i>
+        {isNavToggled ? (
+          <i className="fas fa-times text-custom-light-blue mt-3" style={{ fontSize: "18px" }}></i>
+        ) : (
+          <i className="fas fa-bars text-custom-light-blue mt-3" style={{ fontSize: "18px" }}></i>
+        )}
       </div>
       <div
         className={
