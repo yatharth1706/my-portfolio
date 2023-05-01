@@ -2,11 +2,11 @@ import React from "react";
 
 function Intro() {
   return (
-    <div className="max-w-xl flex flex-col justify-center items-center text-gray-300 py-36">
-      <h1 className="relative font-semibold text-center text-5xl">
+    <div className="max-w-xl px-8 sm:px-0 flex flex-col justify-center items-center text-gray-300 py-36">
+      <h1 className="relative font-semibold text-center md:text-5xl sm:text-3xl text-xl">
         Hi ! I am <span style={{ color: "#5A69DE" }}>Yatharth Verma</span>
       </h1>
-      <span className="mt-4 font-normal text-center">
+      <span className="mt-4 font-normal text-center text-sm">
         Creative Full Stack Web Developer with 2+ years of experience who love open source and love
         building cool stuff
       </span>
