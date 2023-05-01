@@ -42,8 +42,8 @@ function Experience() {
             <img className="w-8 sm:w-12" src={LeadSquaredLogo} alt="LeadSquaredLogo" />
           </div>
           <div className="flex flex-1 flex-col space-y-2 border-blue-400 border-l-0 sm:border-l-2  sm:px-6 py-6 sm:py-0">
-            <h1>Software Development Engineer</h1>
-            <span className="text-sm text-gray-400">June, 2021 - Present</span>
+            <h1>Software Development Engineer (Intern)</h1>
+            <span className="text-sm text-gray-400">June, 2020 - June, 2021</span>
           </div>
         </div>
       </div>
