@@ -3,7 +3,7 @@ import HuluClone from "../images/HuluClone.PNG";
 import KryptPreview from "../images/KryptPreview.jpg";
 import DevBlogsPreview from "../images/DevBlogsPreview.PNG";
 import CloudSpacePreview from "../images/CloudSpacePreview1.png";
-import PortfolioPreview from "../images/PortfolioPreview.PNG";
+import PortfolioPreview from "../images/preview.jpg";
 import ChatSpacePreview from "../images/ChatSpacePreview.png";
 
 const projectsConfig = [
