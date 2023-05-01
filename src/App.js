@@ -9,12 +9,14 @@ import MyIllustrations from "./components/MyIllustrations";
 import MyProjects from "./components/MyProjects";
 import { BrowserRouter as Router } from "react-router-dom";
 import Contact from "./components/Contact";
+import Experience from "./components/Experience";
 
 function App() {
   return (
     <Router>
       <Layout>
         <Home />
+        <Experience />
         <SkillsSection />
         <AboutMe />
         <MyProjects />
