@@ -2,4 +2,5 @@
 
 - Built using ReactJS and Tailwind CSS
 
-![PortfolioPreview](https://user-images.githubusercontent.com/32243289/232308492-450a80af-b9b8-4636-87d9-f1c4847ed721.jpg)
+![image](https://user-images.githubusercontent.com/32243289/235478920-21b9d4b2-4223-4add-b66a-d2c6e60a2b43.png)
+
