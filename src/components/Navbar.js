@@ -5,15 +5,15 @@ function Navbar() {
   const [isNavToggled, setIsNavToggled] = useState(false);
 
   return (
-    <div className="flex px-4 md:px-20 items-baseline py-2  sticky top-0 shadow bg-white z-20">
-      <span
-        style={{ color: "#0177FB" }}
-        className=" mt-1 text-xl md:text-2xl font-medium md:font-semibold"
-      >
-        <sup>My</sup>Portfolio
+    <div className="flex px-4  items-baseline py-2  sticky top-0 shadow bg-transparent z-20 text-white max-w-7xl mx-auto">
+      <span className=" mt-1  font-medium flex">
+        <span className="mr-1" style={{ color: "#5A69DE" }}>
+          Yatharth
+        </span>
+        <span>V.</span>
       </span>
       <div
-        className="hidden w-full lg:flex justify-end space-x-10 opacity-70"
+        className="hidden w-full lg:flex justify-end space-x-10 opacity-70 "
         style={{ lineHeight: "45px" }}
       >
         <li className="list-none cursor-pointer">
