@@ -68,7 +68,11 @@ function Navbar() {
         }
       >
         <div className="flex justify-end w-full">
-          <i className="fas fa-times text-custom-light-blue mt-3" style={{ fontSize: "18px" }}></i>
+          <i
+            className="fas fa-times text-custom-light-blue mt-3"
+            style={{ fontSize: "18px" }}
+            onClick={() => setIsNavToggled(!isNavToggled)}
+          ></i>
         </div>
         <div className="flex justify-center">
           <ul className="leading-10 text-center">
