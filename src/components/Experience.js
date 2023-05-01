@@ -8,7 +8,7 @@ function Experience() {
     <Element name="experience">
       <div className="text-gray-300 w-full py-20  sm:mb-44">
         <span className="flex text-2xl justify-center md:justify-left">Experience</span>
-        <div className="flex flex-col sm:flex-row sm:space-x-8 mt-6 p-6">
+        <div className="flex flex-col sm:flex-row sm:space-x-8 mt-6 px-4 md:p-6">
           <div className="w-10">
             <img className="w-8 sm:w-12" src={LeadSquaredLogo} alt="LeadSquaredLogo" />
           </div>
