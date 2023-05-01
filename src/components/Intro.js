@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 function Intro() {
   return (
-    <div className="sm:mb-32 max-w-xl px-8 sm:px-0 flex flex-col justify-center items-center text-gray-300 py-0 pt-44  sm:py-48">
+    <div className="sm:mb-32 max-w-xl px-2 sm:px-0 flex flex-col justify-center items-center text-gray-300 py-0 pt-44  sm:py-48">
       <h1 className="relative font-semibold text-center md:text-5xl sm:text-3xl text-xl">
         Hi ! I am <span style={{ color: "#5A69DE" }}>Yatharth Verma</span>
       </h1>
@@ -18,12 +18,11 @@ function Intro() {
           rel="noreferrer"
         >
           <button
-            className="text-gray-200 mt-4 flex  mx-auto md:mx-0 transition-transform duration-300 transform hover:scale-105 text-sm"
+            className="text-gray-200 mt-4 flex  mx-auto md:mx-0 transition-transform duration-300 transform hover:scale-105 text-sm w-32 sm:w-40"
             style={{
               background: "linear-gradient(89deg, #9a5cff 0%, hsl(228, 64%, 58%) 100%)",
               borderRadius: "40px",
               padding: "8px",
-              width: "180px",
               justifyContent: "center",
             }}
           >
@@ -32,11 +31,10 @@ function Intro() {
         </a>
         <Link to="contactMe" smooth={true}>
           <button
-            className="bg-gray-300 text-gray-900 mt-4 flex  mx-auto md:mx-0 transition-transform duration-300 transform hover:scale-105"
+            className="bg-gray-300 text-gray-900 mt-4 flex  mx-auto md:mx-0 transition-transform duration-300 transform hover:scale-105 w-32 sm:w-40"
             style={{
               borderRadius: "40px",
               padding: "8px",
-              width: "180px",
               justifyContent: "center",
             }}
           >
