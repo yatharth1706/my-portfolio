@@ -13,19 +13,21 @@ function MyProjects() {
 
   return (
     <Element name="myProjects">
-      <div className=" py-10  mt-12">
-        <span className="text-gray-300 text-2xl font-semibold">My Projects</span>
-        <div className="flex flex-col space-y-10 py-10">
+      <div className=" py-20  mb-6 sm:mb-44">
+        <span className="flex text-gray-300 text-2xl justify-center md:justify-left">
+          My <span className="font-semibold">Projects</span>
+        </span>
+        <div className="flex flex-col space-y-20 py-10">
           {ProjectsConfig.map((config) => (
-            <div className="h-auto w-full bg-gray-800 text-white rounded flex flex-col lg:flex-row">
-              <div className={"w-full rounded-sm md:p-10 p-3 " + config?.backgroundColor}>
+            <div className="h-auto w-full  text-white rounded-2xl flex flex-col lg:flex-row">
+              <div className={"w-full rounded-2xl "}>
                 <img
                   src={config.previewImage}
-                  className="w-full h-full rounded object-contain"
+                  className="w-full h-full rounded object-cover"
                   alt="Preview"
                 />
               </div>
-              <div className="w-full h-6/6 flex flex-col p-8">
+              <div className="w-full h-6/6 flex flex-col pt-6 md:p-8">
                 <span className="mb-1 font-bold" style={{ fontSize: "20px" }}>
                   {config.title}
                 </span>
@@ -37,7 +39,7 @@ function MyProjects() {
                   )}
                 </div>
                 <div className="mt-2 mb-4">
-                  <p className="text-xs md:text-sm lg:text-md leading-6 md:leading-loose">
+                  <p className="text-xs md:text-sm lg:text-md leading-relaxed md:leading-relaxed">
                     {config.description}
                   </p>
                 </div>

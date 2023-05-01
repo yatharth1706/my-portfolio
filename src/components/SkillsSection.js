@@ -1,64 +1,42 @@
 import React from "react";
-import { ReactComponent as MongodbIcon } from "../images/mongodbIcon.svg";
-import { ReactComponent as MySqlIcon } from "../images/mysql1.svg";
-import { ReactComponent as AdobeXDIcon } from "../images/adobexdIcon.svg";
-import { ReactComponent as FigmaIcon } from "../images/figmaIcon.svg";
+import HTMLIcon from "./../images/htmlIcon.png";
+import CSSIcon from "../images/cssIcon.png";
+import JsIcon from "../images/jsicon.webp";
+import ReactIcon from "../images/reactIcon.png";
+import NodejsIcon from "../images/nodejsIcon.webp";
+import PythonIcon from "../images/pythonIcon.webp";
+import AwsIcon from "../images/awsIcon.png";
+import GithubIcon from "../images/githubIcon.png";
+import FramerIcon from "../images/framerIcon.png";
+import FigmaIcon from "../images/figmaIcon1.png";
 import { Element } from "react-scroll";
 
 function SkillsSection() {
   return (
     <Element name="skills">
-      <div id="skills" className="flex w-full h-auto">
-        <div className="py-10  flex flex-col w-full text-center">
-          <span className="text-white text-2xl font-semibold">
-            My <span style={{ fontWeight: "700" }}>Skills</span>
+      <div id="skills" className="flex w-full h-auto mb-6 sm:mb-44">
+        <div className="py-20  flex flex-col w-full text-center">
+          <span className="text-white text-2xl">
+            My{" "}
+            <span style={{ fontWeight: "700" }} className="font-semibold">
+              Skills
+            </span>
           </span>
 
-          <div className="w-full pb-10 h-auto mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-10">
-            <div className="flex justify-center bg-blue-500 rounded-xl text-white">
-              <ul className="border w-full p-4 rounded-xl border-blue-500">
-                <li className="text-white text-md mb-5">Frontend</li>
-                <li className="flex justify-center items-center flex-wrap gap-3 md:gap-5 ">
-                  <i className="fab fa-html5 text-white" style={{ fontSize: "26px" }}></i>
-                  <i className="fab fa-css3-alt text-white" style={{ fontSize: "26px" }}></i>
-                  <i className="fab fa-js-square text-white" style={{ fontSize: "26px" }}></i>
-                  <i className="fab fa-react text-white" style={{ fontSize: "26px" }}></i>
-                </li>
-              </ul>
-            </div>
-            <div className="flex justify-center bg-blue-500 rounded-xl">
-              <ul className="border w-full p-4 rounded-lg border-blue-500">
-                <li className="text-white text-md mb-5">Backend</li>
-
-                <li className="gap-3 md:gap-5  flex justify-center items-center flex-wrap">
-                  <i className="fab fa-aws text-white" style={{ fontSize: "26px" }}></i>
-                  <i className="fab fa-python text-white" style={{ fontSize: "26px" }}></i>
-                  <i className="fab fa-node text-white" style={{ fontSize: "26px" }}></i>
-                </li>
-              </ul>
-            </div>
-            <div className="flex justify-center bg-blue-500 rounded-xl">
-              <ul className="border w-full p-4 rounded-xl border-blue-500">
-                <li className="text-white text-md mb-5">Databases</li>
-
-                <li className="flex justify-center gap-3 md:gap-5  items-center flex-wrap">
-                  <MySqlIcon className="" style={{ width: "26px" }} />
-                  <MongodbIcon className="" style={{ width: "26px" }} />
-                </li>
-              </ul>
-            </div>
-
-            <div className="flex justify-center bg-blue-500 rounded-xl">
-              <ul className="border w-full p-4 rounded-xl border-blue-500">
-                <li className="text-white text-md mb-3">Tools</li>
-
-                <li className="gap-3 md:gap-5  flex justify-center items-center flex-wrap">
-                  <i className="fab fa-github text-white" style={{ fontSize: "22px" }}></i>
-                  <AdobeXDIcon className="fill-current text-white" style={{ width: "22px" }} />
-                  <FigmaIcon className="text-white" style={{ width: "22px" }} />
-                </li>
-              </ul>
-            </div>
+          <div
+            className="w-full flex justify-center items-center flex-wrap gap-6 p-8 mt-10 rounded"
+            style={{ background: "linear-gradient(99deg, #171b2c 0%, rgba(18, 19, 24, 0) 100%)" }}
+          >
+            <img src={HTMLIcon} width="60" alt="Icons" />
+            <img src={CSSIcon} width="60" alt="Icons" />
+            <img src={JsIcon} width="60" alt="Icons" />
+            <img src={ReactIcon} width="60" alt="Icons" />
+            <img src={NodejsIcon} width="60" alt="Icons" />
+            <img src={PythonIcon} width="60" alt="Icons" />
+            <img src={AwsIcon} width="60" alt="Icons" />
+            <img src={GithubIcon} width="60" alt="Icons" />
+            <img src={FramerIcon} width="50" alt="Icons" />
+            <img src={FigmaIcon} width="41" alt="Icons" />
           </div>
         </div>
       </div>
