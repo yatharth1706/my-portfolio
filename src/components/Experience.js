@@ -11,7 +11,7 @@ function Experience() {
           <div>
             <img className="w-12" src={LeadSquaredLogo} alt="LeadSquaredLogo" />
           </div>
-          <div className="flex flex-col space-y-4 border-blue-400 border-l-0 sm:border-l-2  sm:px-6">
+          <div className="flex flex-col space-y-4 border-blue-400 border-l-0 sm:border-l-2 border-t-2 sm:border-t-0  sm:px-6 py-6 sm:py-0">
             <h1>Software Development Engineer</h1>
             <span className="text-sm text-gray-400">June, 2021 - Present</span>
             <ul>
@@ -31,11 +31,11 @@ function Experience() {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col sm:flex-row space-y-8 sm:space-y-0 sm:space-x-8 mt-6">
+        <div className="flex flex-col sm:flex-row space-y-8 sm:space-y-0 space-x-0 sm:space-x-8 mt-6">
           <div>
             <img className="w-12" src={LeadSquaredLogo} alt="LeadSquaredLogo" />
           </div>
-          <div className="flex flex-col space-y-4 border-blue-400 border-l-0 sm:border-l-2  sm:px-6">
+          <div className="flex flex-col space-y-4 border-blue-400 border-l-0 border-t-2 sm:border-t-0 sm:border-l-2  sm:px-6 py-6 sm:py-0">
             <h1>Software Development Engineer ( Intern )</h1>
             <span className="text-sm text-gray-400">June, 2020 - June, 2021</span>
           </div>

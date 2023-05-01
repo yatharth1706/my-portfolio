@@ -5,7 +5,7 @@ function Navbar() {
   const [isNavToggled, setIsNavToggled] = useState(false);
 
   return (
-    <div className="flex px-40 items-baseline py-2  sticky top-0 shadow bg-transparent z-20 text-white max-w-7xl mx-auto text-sm">
+    <div className="flex px-10 md:px-40 items-baseline py-2  sticky top-0 shadow bg-transparent z-20 text-white max-w-7xl mx-auto text-sm">
       <span className=" mt-1  font-medium flex">
         <span className="mr-1" style={{ color: "#5A69DE" }}>
           Yatharth

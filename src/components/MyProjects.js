@@ -13,8 +13,8 @@ function MyProjects() {
 
   return (
     <Element name="myProjects">
-      <div className="px-4 py-10 md:px-20 mt-12">
-        <span className="text-gray-800 text-3xl">My Projects</span>
+      <div className=" py-10  mt-12">
+        <span className="text-gray-300 text-2xl font-semibold">My Projects</span>
         <div className="flex flex-col space-y-10 py-10">
           {ProjectsConfig.map((config) => (
             <div className="h-auto w-full bg-gray-800 text-white rounded flex flex-col lg:flex-row">
