@@ -4,8 +4,8 @@ import { Element } from "react-scroll";
 function MyPublishedVideos() {
   return (
     <Element name="myPublishedVideos">
-      <div className="w-full h-auto px-4 py-6 md:px-20 flex flex-col mt-4 sm:mt-10">
-        <span className="text-3xl text-gray-800">
+      <div className="w-full h-auto py-20  flex flex-col mb-6 sm:mb-">
+        <span className="text-2xl text-gray-300">
           Videos <span className="font-semibold">Published</span>
         </span>
 
@@ -21,14 +21,11 @@ function MyPublishedVideos() {
               ></iframe>
             </div>
             <div className="-mt-2 md:mt-0 w-full h-auto md:w-3/6 flex flex-col md:-ml-2 justify-center">
-              <div
-                style={{ background: "#0177FB" }}
-                className="shadow-lg w-full h-auto p-6 lg:p-14 rounded-lg text-white"
-              >
+              <div className="shadow-lg w-full h-auto mt-6 md:p-6 lg:p-14 rounded-lg text-white">
                 <span className="font-semibold mb-4" style={{ fontSize: "20px" }}>
                   Formik & React JS
                 </span>
-                <p className="mt-4 leading-6 md:leading-loose text-xs md:text-sm lg:text-md">
+                <p className="mt-4 leading-relaxed md:leading-loose text-xs md:text-sm lg:text-md">
                   In this youtube video, I explained what is FormikJS and how to use it to make
                   forms easily. I also taught validations using formik js and how to apply them to
                   forms in easy way.
@@ -38,14 +35,11 @@ function MyPublishedVideos() {
           </div>
           <div className="w-full h-auto flex flex-col md:flex-row mb-10 mt-16 sm:mt-24 justify-center">
             <div className="hidden  w-full h-auto md:w-3/6 md:flex flex-col md:-mr-2 justify-center">
-              <div
-                style={{ background: "#0177FB" }}
-                className="shadow-lg w-full h-auto p-6 lg:p-14  rounded-lg text-white"
-              >
+              <div className="shadow-lg w-full h-auto p-6 lg:p-14  rounded-lg text-white">
                 <span style={{ fontSize: "20px" }} className="font-semibold mb-4">
                   Todo List Using React (Part - 1)
                 </span>
-                <p className="mt-4 leading-6 md:leading-loose text-xs md:text-sm lg:text-md">
+                <p className="mt-4 leading-relaxed md:leading-loose text-xs md:text-sm lg:text-md">
                   In this youtube video, I made a simple Todo App. I first designed it on Adobe XD.
                   And Then I did the coding part in React. It was fun. It got almost 10000 views
                   within 6 months.
@@ -64,12 +58,12 @@ function MyPublishedVideos() {
               ></iframe>
             </div>
             <div className="-mt-2 w-full h-auto md:w-3/6 sm:flex flex-col md:-ml-2 justify-center md:hidden">
-              <div className="shadow-lg w-full h-auto p-6 lg:p-14 bg-custom-light-blue rounded-lg text-white">
+              <div className="shadow-lg w-full h-auto mt-6 md:p-6 lg:p-14 text-white">
                 <span className="font-semibold mb-4 text-xs md:text-sm lg:text-md"></span>
-                <p className="mt-4 leading-6 md:leading-loose">
-                  In this youtube video, I explained what is FormikJS and how to use it to make
-                  forms easily. I also taught validations using formik js and how to apply them to
-                  forms in easy way.
+                <p className="mt-4 leading-relaxed md:leading-loose">
+                  In this youtube video, I made a simple Todo App. I first designed it on Adobe XD.
+                  And Then I did the coding part in React. It was fun. It got almost 10000 views
+                  within 6 months.
                 </p>
               </div>
             </div>

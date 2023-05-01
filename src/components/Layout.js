@@ -3,9 +3,9 @@ import Navbar from "./Navbar";
 
 function Layout({ children }) {
   return (
-    <div className="font-rubik">
+    <div>
       <Navbar />
-      <main className="xl:max-w-full 2xl:max-w-7xl mx-auto">{children}</main>
+      <main className="max-w-7xl mx-auto px-10 md:px-40 text-sm">{children}</main>
     </div>
   );
 }

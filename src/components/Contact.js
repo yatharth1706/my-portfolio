@@ -41,30 +41,29 @@ function Contact() {
 
   return (
     <Element name="contactMe">
-      <div
-        className="w-full h-auto px-4 lg:px-20 flex flex-col py-10 text-white"
-        style={{ background: "#0177FB" }}
-      >
-        <span className="text-3xl">Contact Me</span>
-        <div className="w-full h-auto flex lg:space-x-6 shadow-lg p-6 lg:p-16 mt-6 justify-center items-align-center bg-white text-gray-900 rounded-lg">
-          <img src={ContactBg} alt="Contact pic" className="hidden lg:block lg:w-3/6 h-80" />
+      <div className="w-full h-auto flex flex-col py-20 text-white">
+        <span className="text-2xl">Contact Me</span>
+        <div
+          className="w-full h-auto flex lg:space-x-6 shadow-lg p-6 lg:p-16 mt-6 justify-center items-align-center text-gray-300 rounded-lg"
+          style={{ background: "linear-gradient(99deg, #171b2c 0%, rgba(18, 19, 24, 0) 100%)" }}
+        >
           <form ref={form} onSubmit={sendEmail} className="w-full h-auto flex flex-col lg:w-3/6">
             <label>Name</label>
             <input
               type="text"
               name="name"
-              className="border w-full h-8 mt-2 rounded-sm px-2 outline-none"
+              className="border w-full h-8 mt-2 rounded-sm px-2 outline-none text-gray-800"
             />
             <label className="mt-4">Email</label>
             <input
               type="email"
               name="email"
-              className="border w-full h-8 mt-2 rounded-sm px-2 outline-none"
+              className="border w-full h-8 mt-2 rounded-sm px-2 outline-none text-gray-800"
             />
             <label className="mt-4">Message</label>
             <textarea
               name="message"
-              className="border w-full h-16 mt-2 rounded-sm px-2 outline-none pt-1"
+              className="border w-full h-16 mt-2 rounded-sm px-2 outline-none pt-1 text-gray-800"
             />
             <button
               type="submit"
