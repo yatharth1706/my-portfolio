@@ -19,10 +19,10 @@ function AboutMe() {
             <span className="text-sm text-gray-300">Hello, I am</span>
             <span className="text-2xl font-semibold mt-2 text-blue-500">Yatharth Verma</span>
             <span className="mt-2 text-sm text-gray-300 leading-relaxed">
-              My name is Yatharth Verma. I am based from Punjab. I am currently working as a
-              Software Engineer at LeadSquared. Have around 2+ years of experience. Have expertise
-              in both frontend and backend technologies. Believe in hard work and passionate about
-              open source. Love learning new stuff every day.
+              I am based from Punjab. I am currently working as a Software Engineer at LeadSquared.
+              Have around 2+ years of experience. Have expertise in both frontend and backend
+              technologies. Believe in hard work and passionate about open source. Love learning new
+              stuff every day.
             </span>
           </div>
         </div>
