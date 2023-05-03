@@ -5,7 +5,7 @@ function Intro() {
   return (
     <div className="sm:mb-32 max-w-xl px-2 sm:px-0 flex flex-col justify-center items-center text-gray-300 py-0 pt-44  sm:py-48">
       <h1 className="relative font-semibold text-center md:text-5xl sm:text-3xl text-xl">
-        Hi ! I am <span style={{ color: "#5A69DE" }}>Yatharth Verma</span>
+        Hi! I am <span style={{ color: "#5A69DE" }}>Yatharth Verma</span>
       </h1>
       <span className="mt-4 font-normal text-center text-sm">
         Creative Full Stack Web Developer with 2+ years of experience who love open source and love
