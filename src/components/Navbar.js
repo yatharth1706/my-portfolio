@@ -17,33 +17,33 @@ function Navbar() {
         style={{ lineHeight: "45px" }}
       >
         <li className="list-none cursor-pointer">
-          <Link to="experience" smooth={true}>
+          <Link to="experience" smooth={true} offset={-100}>
             Experience
           </Link>
         </li>
         <li className="list-none cursor-pointer">
-          <Link to="skills" smooth={true}>
+          <Link to="skills" smooth={true} offset={-100}>
             Skills
           </Link>
         </li>
         <li className="list-none cursor-pointer">
-          <Link to="aboutMe" smooth={true}>
+          <Link to="aboutMe" smooth={true} offset={-100}>
             About me
           </Link>
         </li>
         <li className="list-none cursor-pointer">
-          <Link to="myProjects" smooth={true}>
+          <Link to="myProjects" smooth={true} offset={-100}>
             Projects
           </Link>
         </li>
         <li className="list-none cursor-pointer">
-          <Link to="myPublishedVideos" smooth={true}>
+          <Link to="myPublishedVideos" smooth={true} offset={-100}>
             Videos
           </Link>
         </li>
 
         <li className="list-none cursor-pointer">
-          <Link to="contactMe" smooth={true}>
+          <Link to="contactMe" smooth={true} offset={-100}>
             Contact Me
           </Link>
         </li>
@@ -77,33 +77,37 @@ function Navbar() {
         <div className="flex justify-center">
           <ul className="leading-10 text-center">
             <li className="list-none cursor-pointer">
-              <Link to="experience" onClick={() => setIsNavToggled(!isNavToggled)}>
+              <Link to="experience" offset={-100} onClick={() => setIsNavToggled(!isNavToggled)}>
                 Experience
               </Link>
             </li>
             <li className="list-none cursor-pointer">
-              <Link to="skills" onClick={() => setIsNavToggled(!isNavToggled)}>
+              <Link to="skills" offset={-100} onClick={() => setIsNavToggled(!isNavToggled)}>
                 Skills
               </Link>
             </li>
             <li className="list-none cursor-pointer">
-              <Link to="aboutMe" onClick={() => setIsNavToggled(!isNavToggled)}>
+              <Link to="aboutMe" offset={-100} onClick={() => setIsNavToggled(!isNavToggled)}>
                 About me
               </Link>
             </li>
             <li className="list-none cursor-pointer">
-              <Link to="myProjects" onClick={() => setIsNavToggled(!isNavToggled)}>
+              <Link to="myProjects" offset={-100} onClick={() => setIsNavToggled(!isNavToggled)}>
                 Projects
               </Link>
             </li>
             <li className="list-none cursor-pointer">
-              <Link to="myPublishedVideos" onClick={() => setIsNavToggled(!isNavToggled)}>
+              <Link
+                to="myPublishedVideos"
+                offset={-100}
+                onClick={() => setIsNavToggled(!isNavToggled)}
+              >
                 Videos
               </Link>
             </li>
 
             <li className="list-none cursor-pointer">
-              <Link to="contactMe" onClick={() => setIsNavToggled(!isNavToggled)}>
+              <Link to="contactMe" offset={-100} onClick={() => setIsNavToggled(!isNavToggled)}>
                 {" "}
                 Contact Me
               </Link>

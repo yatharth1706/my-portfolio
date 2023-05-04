@@ -4,8 +4,8 @@ import { Element } from "react-scroll";
 function MyPublishedVideos() {
   return (
     <Element name="myPublishedVideos">
-      <div className="w-full h-auto py-20  flex flex-col mb-6 sm:mb-">
-        <span className="text-2xl text-gray-300">
+      <div className="py-5 w-full h-auto flex flex-col mb-6 sm:mb-10 justify-center sm:justify-start">
+        <span className="flex justify-center sm:justify-start text-xl sm:text-2xl  text-gray-300">
           Videos <span className="font-semibold">Published</span>
         </span>
 

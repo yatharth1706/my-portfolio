@@ -8,7 +8,7 @@ function Home() {
       <img
         src="/GlassMorph1.png"
         alt="hero-section-bg"
-        className="absolute"
+        className="hidden sm:block sm:absolute"
         style={{ zIndex: "-1000" }}
       />
       <Intro />

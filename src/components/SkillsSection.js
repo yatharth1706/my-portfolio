@@ -14,9 +14,9 @@ import { Element } from "react-scroll";
 function SkillsSection() {
   return (
     <Element name="skills">
-      <div id="skills" className="flex w-full h-auto mb-6 sm:mb-44">
-        <div className="py-20  flex flex-col w-full text-center">
-          <span className="text-white text-2xl">
+      <div id="skills" className="flex w-full h-auto mb-6 sm:mb-44 py-5">
+        <div className="flex flex-col w-full ">
+          <span className="text-white text-xl sm:text-2xl flex justify-center sm:justify-start">
             My{" "}
             <span style={{ fontWeight: "700" }} className="font-semibold">
               Skills

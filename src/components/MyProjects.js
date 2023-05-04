@@ -13,9 +13,9 @@ function MyProjects() {
 
   return (
     <Element name="myProjects">
-      <div className=" py-20  mb-6 sm:mb-44">
-        <span className="flex text-gray-300 text-2xl justify-center md:justify-left">
-          My <span className="font-semibold">Projects</span>
+      <div className="mb-6 sm:mb-44 py-5">
+        <span className="flex text-gray-300 text-xl sm:text-2xl justify-center sm:justify-start">
+          My <span className="font-semibold">&nbsp;Projects</span>
         </span>
         <div className="flex flex-col space-y-20 py-10">
           {ProjectsConfig.map((config) => (
@@ -23,7 +23,7 @@ function MyProjects() {
               <div className={"w-full rounded-2xl "}>
                 <img
                   src={config.previewImage}
-                  className="w-full h-full rounded object-cover"
+                  className={"w-full h-full rounded object-cover shadow-2xl "}
                   alt="Preview"
                 />
               </div>
@@ -44,11 +44,15 @@ function MyProjects() {
                   </p>
                 </div>
                 {config.liveDemoLink ? (
-                  <div className="flex justify-between mt-auto" style={{ color: "#0177FB" }}>
-                    <a target="_blank" href={config.liveDemoLink} className="font-bold">
+                  <div className="flex justify-between mt-auto">
+                    <a
+                      target="_blank"
+                      href={config.liveDemoLink}
+                      className="font-bold text-blue-400"
+                    >
                       Live Demo
                     </a>
-                    <a target="_blank" href={config.githubLink} className="font-bold">
+                    <a target="_blank" href={config.githubLink} className="font-bold text-gray-400">
                       Source Code
                     </a>
                   </div>

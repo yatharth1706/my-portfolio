@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 function Intro() {
   return (
-    <div className="sm:mb-32 max-w-xl px-2 sm:px-0 flex flex-col justify-center items-center text-gray-300 py-0 pt-44  sm:py-48">
+    <div className="py-5 sm:mb-32 max-w-xl px-2 sm:px-0 flex flex-col justify-center items-center text-gray-300 pt-36 sm:pt-44">
       <h1 className="relative font-semibold text-center md:text-5xl sm:text-3xl text-xl">
         Hi! I am <span style={{ color: "#5A69DE" }}>Yatharth Verma</span>
       </h1>
