@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 function Intro() {
   return (
     <div className="flex flex-col h-screen text-white justify-center items-center">
-      <h1 className="relative font-semibold text-center md:text-6xl sm:text-3xl text-xl">
+      <h1 className="relative font-semibold text-center md:text-5xl sm:text-3xl text-xl">
         Hi 👋 I am <span style={{ color: "#5A69DE" }}>Yatharth Verma</span>
       </h1>
       <span className="mt-4 font-normal text-center text-sm">
