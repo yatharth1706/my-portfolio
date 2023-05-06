@@ -6,7 +6,7 @@ import LeadSquaredLogo from "./../images/LeadSquaredLogo.png";
 function Experience() {
   return (
     <Element name="experience">
-      <div className="text-gray-300 w-full  sm:mb-44 py-5">
+      <div className="text-gray-300 w-full  sm:mb-44">
         <span className="flex text-xl sm:text-2xl justify-center sm:justify-start md:justify-left font-semibold">
           Experience
         </span>

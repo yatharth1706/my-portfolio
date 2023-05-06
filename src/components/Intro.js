@@ -3,15 +3,15 @@ import { Link } from "react-scroll";
 
 function Intro() {
   return (
-    <div className="py-5 sm:mb-32 max-w-xl px-2 sm:px-0 flex flex-col justify-center items-center text-gray-300 pt-36 sm:pt-44">
-      <h1 className="relative font-semibold text-center md:text-5xl sm:text-3xl text-xl">
-        Hi! I am <span style={{ color: "#5A69DE" }}>Yatharth Verma</span>
+    <div className="flex flex-col h-screen text-white justify-center items-center">
+      <h1 className="relative font-semibold text-center md:text-6xl sm:text-3xl text-xl">
+        Hi 👋 I am <span style={{ color: "#5A69DE" }}>Yatharth Verma</span>
       </h1>
       <span className="mt-4 font-normal text-center text-sm">
         Creative Full Stack Web Developer with 2+ years of experience who love open source and love
         building cool stuff
       </span>
-      <div className="flex space-x-6">
+      <div className="flex space-x-6 mt-3">
         <a
           href="https://drive.google.com/file/d/13O5FJH3-wlhMHP_23jjtcURofQ-kJA0p/view?usp=share_link"
           target="_blank"
@@ -43,7 +43,7 @@ function Intro() {
         </Link>
       </div>
 
-      <div className="flex space-x-8 mt-6 mb-8 mx-auto md:mx-0">
+      <div className="flex space-x-8 mt-10 mb-8 mx-auto md:mx-0">
         <a href="http://github.com/yatharth1706" target="_blank" rel="noreferrer">
           <i className="fab fa-github  text-gray-300" style={{ fontSize: "24px" }}></i>
         </a>
