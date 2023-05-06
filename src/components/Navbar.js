@@ -63,7 +63,7 @@ function Navbar() {
       <div
         className={
           isNavToggled
-            ? "backdrop-filter backdrop-blur-lg bg-gray-900 bg-opacity-80 flex-col justify-center items-center absolute top-0   left-0 w-full h-auto text-white p-4 space-y-4 block transition-all duration-300 ease-in-out rounded text-sm shadow-2xl"
+            ? "backdrop-filter backdrop-blur-lg bg-gray-900 bg-opacity-95 flex-col justify-center items-center absolute top-0   left-0 w-full h-auto text-white p-4 space-y-4 block transition-all duration-300 ease-in-out rounded text-sm shadow-2xl"
             : "hidden"
         }
       >
@@ -75,7 +75,7 @@ function Navbar() {
           ></i>
         </div>
         <div className="flex justify-center">
-          <ul className="leading-10 text-center">
+          <ul className="leading-10 text-center space-y-6 font-semibold ">
             <li className="list-none cursor-pointer">
               <Link to="experience" offset={-100} onClick={() => setIsNavToggled(!isNavToggled)}>
                 Experience
