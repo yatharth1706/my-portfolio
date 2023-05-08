@@ -11,17 +11,28 @@ function AboutMe() {
         </span>
         <div className="flex flex-col justify-center md:flex-row h-auto">
           <div className="w-full h-auto mt-10">
-            <div style={{ borderRadius: "50%" }} className="h-48 w-48 lg:h-80 lg:w-80 mx-auto">
-              <img src={AboutMePic} alt="MyPic" width="80%" />
+            <div
+              style={{ borderRadius: "50%" }}
+              className="h-48 w-48 lg:h-80 lg:w-80 mx-auto"
+            >
+              <img
+                src={AboutMePic}
+                alt="MyPic"
+                width="80%"
+                className="mx-auto"
+              />
             </div>
           </div>
           <div className="flex flex-col text-lg mt-10 md:mt-16 lg:mt-28">
             <span className="text-sm text-gray-300">Hello, I am</span>
-            <span className="text-2xl font-semibold mt-2 text-blue-500">Yatharth Verma</span>
+            <span className="text-2xl font-semibold mt-2 text-blue-500">
+              Yatharth Verma
+            </span>
             <span className="mt-2 text-sm text-gray-300 leading-relaxed">
-              I am based from Punjab. I am currently working as a Software Engineer at LeadSquared.
-              I have around 2+ years of experience. I have expertise in both frontend and backend
-              technologies. I believe in hard work and am passionate about open source. Love
+              I am based from Punjab. I am currently working as a Software
+              Engineer at LeadSquared. I have around 2+ years of experience. I
+              have expertise in both frontend and backend technologies. I
+              believe in hard work and am passionate about open source. Love
               learning new stuff every day.
             </span>
           </div>

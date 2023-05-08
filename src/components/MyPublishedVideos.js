@@ -10,7 +10,7 @@ function MyPublishedVideos() {
         </span>
 
         <div className="w-full h-auto">
-          <div className="w-full h-auto flex flex-col md:flex-row mt-8 justify-center">
+          <div className="w-full h-auto flex flex-col md:flex-row mt-8 justify-center rounded-md backdrop-filter backdrop-blur-md bg-gray-900 p-10 bg-opacity-80 transform transition-all hover:scale-105 sm:hover:scale-110 cursor-pointer">
             <div className="aspect-w-16 aspect-h-9 md:aspect-w-6 md:aspect-h-2 md:w-4/6">
               <iframe
                 src="https://www.youtube.com/embed/EdibJxFMxlI"
@@ -20,29 +20,35 @@ function MyPublishedVideos() {
                 allowfullscreen
               ></iframe>
             </div>
-            <div className="-mt-2 md:mt-0 w-full h-auto md:w-3/6 flex flex-col md:-ml-2 justify-center">
+            <div className="-mt-2 md:mt-0 w-full h-auto md:w-3/6 flex flex-col md:-ml-2 justify-center ">
               <div className="shadow-lg w-full h-auto mt-6 md:p-6 lg:p-14 rounded-lg text-white">
-                <span className="font-semibold mb-4" style={{ fontSize: "20px" }}>
+                <span
+                  className="font-semibold mb-4"
+                  style={{ fontSize: "20px" }}
+                >
                   Formik & React JS
                 </span>
                 <p className="mt-4 leading-relaxed md:leading-loose text-xs md:text-sm lg:text-md">
-                  In this youtube video, I explained what is FormikJS and how to use it to make
-                  forms easily. I also taught validations using formik js and how to apply them to
-                  forms in easy way.
+                  In this youtube video, I explained what is FormikJS and how to
+                  use it to make forms easily. I also taught validations using
+                  formik js and how to apply them to forms in easy way.
                 </p>
               </div>
             </div>
           </div>
-          <div className="w-full h-auto flex flex-col md:flex-row mb-10 mt-16 sm:mt-24 justify-center">
+          <div className="w-full h-auto flex flex-col md:flex-row mb-10 mt-16 sm:mt-24 justify-center rounded-md backdrop-filter backdrop-blur-md bg-gray-900 p-10 bg-opacity-80 transform transition-all hover:scale-105 sm:hover:scale-110 cursor-pointer">
             <div className="hidden  w-full h-auto md:w-3/6 md:flex flex-col md:-mr-2 justify-center">
               <div className="shadow-lg w-full h-auto p-6 lg:p-14  rounded-lg text-white">
-                <span style={{ fontSize: "20px" }} className="font-semibold mb-4">
+                <span
+                  style={{ fontSize: "20px" }}
+                  className="font-semibold mb-4"
+                >
                   Todo List Using React (Part - 1)
                 </span>
                 <p className="mt-4 leading-relaxed md:leading-loose text-xs md:text-sm lg:text-md">
-                  In this youtube video, I made a simple Todo App. I first designed it on Adobe XD.
-                  And Then I did the coding part in React. It was fun. It got almost 10000 views
-                  within 6 months.
+                  In this youtube video, I made a simple Todo App. I first
+                  designed it on Adobe XD. And Then I did the coding part in
+                  React. It was fun. It got almost 10000 views within 6 months.
                 </p>
               </div>
             </div>
@@ -61,9 +67,9 @@ function MyPublishedVideos() {
               <div className="shadow-lg w-full h-auto mt-6 md:p-6 lg:p-14 text-white">
                 <span className="font-semibold mb-4 text-xs md:text-sm lg:text-md"></span>
                 <p className="mt-4 leading-relaxed md:leading-loose">
-                  In this youtube video, I made a simple Todo App. I first designed it on Adobe XD.
-                  And Then I did the coding part in React. It was fun. It got almost 10000 views
-                  within 6 months.
+                  In this youtube video, I made a simple Todo App. I first
+                  designed it on Adobe XD. And Then I did the coding part in
+                  React. It was fun. It got almost 10000 views within 6 months.
                 </p>
               </div>
             </div>
