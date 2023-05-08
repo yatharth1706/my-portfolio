@@ -19,7 +19,7 @@ function MyProjects() {
         </span>
         <div className="flex flex-col space-y-20 py-10">
           {ProjectsConfig.map((config) => (
-            <div className="h-auto w-full  text-white rounded-md flex flex-col lg:flex-row backdrop-filter backdrop-blur-md bg-gray-900 p-10 bg-opacity-80 transform transition-all hover:scale-105 sm:hover:scale-110 cursor-pointer">
+            <div className="h-auto w-full  text-white rounded-md flex flex-col lg:flex-row backdrop-filter backdrop-blur-md bg-gray-900 p-4 sm:p-10 bg-opacity-80 transform transition-all hover:scale-105 sm:hover:scale-110 cursor-pointer">
               <div className={"w-full rounded-2xl "}>
                 <img
                   src={config.previewImage}

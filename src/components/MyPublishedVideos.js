@@ -10,7 +10,7 @@ function MyPublishedVideos() {
         </span>
 
         <div className="w-full h-auto">
-          <div className="w-full h-auto flex flex-col md:flex-row mt-8 justify-center rounded-md backdrop-filter backdrop-blur-md bg-gray-900 p-10 bg-opacity-80 transform transition-all hover:scale-105 sm:hover:scale-110 cursor-pointer">
+          <div className="w-full h-auto flex flex-col md:flex-row mt-8 justify-center rounded-md backdrop-filter backdrop-blur-md bg-gray-900 p-4 sm:p-10 bg-opacity-80 transform transition-all hover:scale-105 sm:hover:scale-110 cursor-pointer">
             <div className="aspect-w-16 aspect-h-9 md:aspect-w-6 md:aspect-h-2 md:w-4/6">
               <iframe
                 src="https://www.youtube.com/embed/EdibJxFMxlI"
@@ -36,7 +36,7 @@ function MyPublishedVideos() {
               </div>
             </div>
           </div>
-          <div className="w-full h-auto flex flex-col md:flex-row mb-10 mt-16 sm:mt-24 justify-center rounded-md backdrop-filter backdrop-blur-md bg-gray-900 p-10 bg-opacity-80 transform transition-all hover:scale-105 sm:hover:scale-110 cursor-pointer">
+          <div className="w-full h-auto flex flex-col md:flex-row mb-10 mt-16 sm:mt-24 justify-center rounded-md backdrop-filter backdrop-blur-md bg-gray-900 p-4 sm:p-10 bg-opacity-80 transform transition-all hover:scale-105 sm:hover:scale-110 cursor-pointer">
             <div className="hidden  w-full h-auto md:w-3/6 md:flex flex-col md:-mr-2 justify-center">
               <div className="shadow-lg w-full h-auto p-6 lg:p-14  rounded-lg text-white">
                 <span
