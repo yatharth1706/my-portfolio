@@ -5,6 +5,7 @@ import DevBlogsPreview from "../images/DevBlogsPreview.PNG";
 import CloudSpacePreview from "../images/CloudSpacePreview1.png";
 import PortfolioPreview from "../images/preview.jpg";
 import ChatSpacePreview from "../images/ChatSpacePreview.png";
+import BlogBuddyPreview from "../images/BlogBuddyPreview.png";
 
 const projectsConfig = [
   {
@@ -16,7 +17,15 @@ const projectsConfig = [
     githubLink: "https://github.com/yatharth1706/my-portfolio",
     backgroundColor: "bg-blue-500",
   },
-
+  {
+    title: "BlogBuddy",
+    previewImage: BlogBuddyPreview,
+    description:
+      "Full stack blogging application which i actually built as a part of assignment for one startup hiring. It was fun building this project. Learnt a lot of things. Built using nextjs, tailwind css, mongodb and appwrite",
+    liveDemoLink: "https://blog-buddy-seven.vercel.app/",
+    githubLink: "https://github.com/yatharth1706/BlogBuddy",
+    backgroundColor: "",
+  },
   {
     title: "Emoji Git CLI Tool",
     previewImage: Emojigit,
