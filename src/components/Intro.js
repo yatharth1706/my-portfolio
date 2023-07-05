@@ -13,7 +13,7 @@ function Intro() {
       </span>
       <div className="flex space-x-6 mt-3">
         <a
-          href="https://drive.google.com/file/d/13O5FJH3-wlhMHP_23jjtcURofQ-kJA0p/view?usp=share_link"
+          href="https://docs.google.com/document/d/1sPIRRAIn0jhgIjbUdH2Sm7qYkvwILRvHeX-IG-dt-FA/edit"
           target="_blank"
           rel="noreferrer"
         >
