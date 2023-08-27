@@ -1,6 +1,7 @@
 import Emojigit from "../images/Emojigit.PNG";
 import HuluClone from "../images/HuluClone.PNG";
 import KryptPreview from "../images/KryptPreview.jpg";
+import FormVibePreview from "../images/FormVibePreview.png";
 import DevBlogsPreview from "../images/DevBlogsPreview.PNG";
 import CloudSpacePreview from "../images/CloudSpacePreview1.png";
 import PortfolioPreview from "../images/preview.jpg";
@@ -8,6 +9,15 @@ import ChatSpacePreview from "../images/ChatSpacePreview.png";
 import BlogBuddyPreview from "../images/BlogBuddyPreview.png";
 
 const projectsConfig = [
+  {
+    title: "FormVibe",
+    previewImage: FormVibePreview,
+    description:
+      "Form creation tool similar to typeform and form.app Built using nextjs. Supports typeform and Airtable type of forms. Supports drag and drop functionality to create forms with ease. User can share links of form to get responses",
+    liveDemoLink: "https://form-vibe.vercel.app/",
+    githubLink: "https://github.com/yatharth1706/FormVibe",
+    backgroundColor: "bg-blue-500",
+  },
   {
     title: "Portfolio",
     previewImage: PortfolioPreview,
