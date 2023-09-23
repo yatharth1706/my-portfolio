@@ -7,8 +7,8 @@ function Intro() {
       <h1 className="relative font-semibold text-center md:text-5xl sm:text-3xl text-xl -mt-28">
         Hi 👋 I am <span style={{ color: "#5A69DE" }}>Yatharth Verma</span>
       </h1>
-      <span className="mt-4 font-normal text-center text-sm sm:w-4/5">
-        Creative Full Stack Web Developer with 2+ years of experience who love
+      <span className="mt-5 font-normal text-center text-md sm:w-4/5">
+        Creative Full Stack Web Developer with 2.5+ years of experience who love
         open source and love building cool stuff
       </span>
       <div className="flex space-x-6 mt-3">
