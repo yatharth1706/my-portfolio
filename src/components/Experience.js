@@ -23,7 +23,7 @@ function Experience() {
 
           <div className="flex flex-1 flex-col space-y-2 border-blue-400 border-l-0 sm:border-l-2  sm:px-6 py-6 sm:py-0">
             <h1>Senior Backend Engineer</h1>
-            <span className="text-sm text-gray-400">June, 2023 - Present</span>
+            <span className="text-sm text-gray-400">December, 2023 - Present</span>
             <div className="flex flex-col leading-relaxed">
               <span>
                 - Building digital workers using cutting edge AI technology to
@@ -57,7 +57,7 @@ function Experience() {
 
           <div className="flex flex-1 flex-col space-y-2 border-blue-400 border-l-0 sm:border-l-2  sm:px-6 py-6 sm:py-0">
             <h1>Senior Software Engineer</h1>
-            <span className="text-sm text-gray-400">June, 2023 - Present</span>
+            <span className="text-sm text-gray-400">June, 2023 - December, 2023</span>
             <div className="flex flex-col leading-relaxed">
               <span>
                 - Automated release pipeline that helps faster releases and 100%
@@ -89,7 +89,7 @@ function Experience() {
 
           <div className="flex flex-1 flex-col space-y-2 border-blue-400 border-l-0 sm:border-l-2  sm:px-6 py-6 sm:py-0">
             <h1>Software Development Engineer</h1>
-            <span className="text-sm text-gray-400">June, 2021 - Present</span>
+            <span className="text-sm text-gray-400">June, 2021 - June, 2023</span>
             <div className="flex flex-col leading-relaxed">
               <span>- Part of DevOps Portal team</span>
               <span>
