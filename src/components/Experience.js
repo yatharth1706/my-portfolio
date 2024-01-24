@@ -2,6 +2,7 @@ import React from "react";
 
 import { Element } from "react-scroll";
 import LeadSquaredLogo from "./../images/LeadSquaredLogo.png";
+import ArtisanAILogo from "./../images/ArtisanAILogo.png";
 
 function Experience() {
   return (
@@ -10,6 +11,40 @@ function Experience() {
         <span className="flex text-xl sm:text-2xl justify-center sm:justify-start md:justify-left font-semibold">
           Experience
         </span>
+        <div className="flex  flex-col sm:flex-row sm:space-x-8 mt-10 sm:mt-6 px-4 md:p-6">
+          <div className="flex  items-center sm:items-start space-x-4 sm:w-10 w-full border-b-2 border-blue-400 sm:border-b-0 pb-5 sm:pb-0">
+            <img
+              className="w-8 sm:w-12"
+              src={ArtisanAILogo}
+              alt="ArtisanAILogo"
+            />
+            <span className="font-bold text-lg sm:hidden">Artisan AI</span>
+          </div>
+
+          <div className="flex flex-1 flex-col space-y-2 border-blue-400 border-l-0 sm:border-l-2  sm:px-6 py-6 sm:py-0">
+            <h1>Senior Backend Engineer</h1>
+            <span className="text-sm text-gray-400">June, 2023 - Present</span>
+            <div className="flex flex-col leading-relaxed">
+              <span>
+                - Building digital workers using cutting edge AI technology to
+                supercharge productivity
+              </span>
+              <span>
+                - Optimized email quality and email filtering for outbound
+                emails
+              </span>
+              <span>
+                - Improved whole subscription workflow with stripe in the
+                platform
+              </span>
+              <div className="flex flex-col">
+                <span>
+                  - Skills: Python, FastAPI, Docker, Postgres, DigitalOcean, LLM
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="flex  flex-col sm:flex-row sm:space-x-8 mt-10 sm:mt-6 px-4 md:p-6">
           <div className="flex  items-center sm:items-start space-x-4 sm:w-10 w-full border-b-2 border-blue-400 sm:border-b-0 pb-5 sm:pb-0">
             <img
@@ -77,22 +112,6 @@ function Experience() {
                 </span>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="flex flex-col sm:flex-row sm:space-x-8 mt-6 p-6">
-          <div className="flex items-center sm:items-start space-x-4 sm:w-10 w-full border-b-2 border-blue-400 sm:border-b-0 pb-5 sm:pb-0">
-            <img
-              className="w-8 sm:w-12"
-              src={LeadSquaredLogo}
-              alt="LeadSquaredLogo"
-            />
-            <span className="font-bold text-lg sm:hidden">LeadSquared</span>
-          </div>
-          <div className="flex flex-1 flex-col space-y-2 border-blue-400 border-l-0 sm:border-l-2  sm:px-6 py-6 sm:py-0">
-            <h1>Software Development Engineer (Intern)</h1>
-            <span className="text-sm text-gray-400">
-              June, 2020 - June, 2021
-            </span>
           </div>
         </div>
       </div>
