@@ -25,22 +25,39 @@ function Experience() {
             <h1>Senior Backend Engineer</h1>
             <span className="text-sm text-gray-400">June, 2023 - Present</span>
             <div className="flex flex-col leading-relaxed">
-              <span>
-                - Building digital workers using cutting edge AI technology to
-                supercharge productivity
-              </span>
-              <span>
-                - Optimized email quality and email filtering for outbound
-                emails
-              </span>
-              <span>
-                - Improved whole subscription workflow with stripe in the
-                platform
-              </span>
+              <li>
+                Spearheaded the integration of multiple CRMs including HubSpot
+                and Salesforce into the platform, enhancing lead management
+                efficiency.
+              </li>
+              <li>
+                Achieved a remarkable 99% improvement in email deliverability
+                through meticulous optimization strategies.
+              </li>
+              <li>
+                Implemented advanced techniques to enhance email quality and
+                refine email filtering mechanisms, resulting in a more
+                streamlined communication process.
+              </li>
+              <li>
+                Revamped the entire subscription workflow by leveraging Stripe
+                within the platform, leading to improved user experience and
+                increased conversion rates.
+              </li>
+              <li>
+                Developed comprehensive analytics infrastructure, enabling
+                real-time monitoring and analysis of all lead and email-related
+                activities within the platform.
+              </li>
+              <li>
+                Engineered robust solutions to fortify the scheduler, enabling
+                seamless handling of over 10,000 emails daily and facilitating
+                effective communication with leads.
+              </li>
               <div className="flex flex-col">
-                <span>
-                  - Skills: Python, FastAPI, Docker, Postgres, DigitalOcean, LLM
-                </span>
+                <li>
+                  Skills: Python, FastAPI, Docker, Postgres, DigitalOcean, LLM
+                </li>
               </div>
             </div>
           </div>
@@ -59,20 +76,20 @@ function Experience() {
             <h1>Senior Software Engineer</h1>
             <span className="text-sm text-gray-400">June, 2023 - Present</span>
             <div className="flex flex-col leading-relaxed">
-              <span>
-                - Automated release pipeline that helps faster releases and 100%
+              <li>
+                Automated release pipeline that helps faster releases and 100%
                 efficiency
-              </span>
-              <span>
-                - Automating Region Setup Infra for LeadSquared to create all
-                its infra in new region on requirement basis. Automating it via
+              </li>
+              <li>
+                Automated Region Setup Infra for LeadSquared to create all its
+                infra in new region on requirement basis. Automating it via
                 Terraform, AWS, RDS, Powershell scripts.
-              </span>
+              </li>
               <div className="flex flex-col">
-                <span>
-                  - Skills: ReactJS, Terraform, Python, Git, AWS, Powershell,
+                <li>
+                  Skills: ReactJS, Terraform, Python, Git, AWS, Powershell,
                   MySQL, Nodejs, Figma, NextJS, Typescript
-                </span>
+                </li>
               </div>
             </div>
           </div>
@@ -91,25 +108,25 @@ function Experience() {
             <h1>Software Development Engineer</h1>
             <span className="text-sm text-gray-400">June, 2021 - Present</span>
             <div className="flex flex-col leading-relaxed">
-              <span>- Part of DevOps Portal team</span>
-              <span>
-                - Created an automation platform for the tasks devops team
+              <li>Part of DevOps Portal team</li>
+              <li>
+                Created an automation platform for the tasks devops team
                 performs. Following are some of them
-              </span>
+              </li>
               <div className="flex flex-col">
-                <span>
-                  - Automated RDS Cluster upgrade / downgrade activity with very
+                <li>
+                  Automated RDS Cluster upgrade / downgrade activity with very
                   less downtime around 1-10 seconds in production
-                </span>
-                <span>
-                  - Devised notification system for the platform supporting both
+                </li>
+                <li>
+                  Devised notification system for the platform supporting both
                   web and email notifications on based of certain actions custom
                   selected by user
-                </span>
-                <span>
-                  - Devised task management and approval system in the platform
+                </li>
+                <li>
+                  Devised task management and approval system in the platform
                   for devops team
-                </span>
+                </li>
               </div>
             </div>
           </div>

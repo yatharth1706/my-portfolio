@@ -29,11 +29,11 @@ function AboutMe() {
               Yatharth Verma
             </span>
             <span className="mt-2 text-sm text-gray-300 leading-relaxed">
-              I am based from Punjab. I am currently working as a Software
-              Engineer at LeadSquared. I have around 2+ years of experience. I
-              have expertise in both frontend and backend technologies. I
-              believe in hard work and am passionate about open source. Love
-              learning new stuff every day.
+              I am based from Punjab. I am currently working as a Senior
+              Software Engineer at Artisan AI. I have around 3+ years of
+              experience. I have expertise in both frontend and backend
+              technologies. I believe in hard work and am passionate about open
+              source. Love learning new stuff every day.
             </span>
           </div>
         </div>
